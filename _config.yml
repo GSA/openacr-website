@@ -79,6 +79,8 @@ ga:
 primary_navigation:
   - name: Home
     url: /
+  - name: OPATs
+    url: /opats/
   - name: Blog
     url: /blog/
   - name: Document
