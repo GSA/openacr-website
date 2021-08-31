@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Drupal Accessibility Conformance Report</title>
+    <title>Moodle Accessibility Conformance Report</title>
     <script
       type="text/javascript"
       charset="utf8"
@@ -22,7 +22,7 @@
     ></script>
     <main>
       <div class="grid-container">
-        <h1>Drupal Accessibility Conformance Report</h1>
+        <h1>Moodle Accessibility Conformance Report</h1>
 
         Based on VPAT® 2.4 Revised Section 508 Edition
         <h2 id="name-of-product-version">
@@ -34,13 +34,13 @@
           >
           Name of Product/Version
         </h2>
-        Drupal 9.1
+        Moodle 3.1
 
         <h2 id="report-date">
           <a href="#report-date" aria-hidden="true" class="header-anchor">#</a>
           Report Date
         </h2>
-        8/25/2021
+        8/31/2021
 
         <h2 id="product-description">
           <a
@@ -51,7 +51,8 @@
           >
           Product Description
         </h2>
-        Content Management System
+        The world&#x27;s most customisable and trusted open-source learning
+        management system.
 
         <h2 id="contact-information">
           <a
@@ -67,30 +68,18 @@
           Author Information
         </h3>
         <ul>
-          <li>Name: Mike Gifford</li>
-          <li>Company: CivicActions</li>
-          <li>Address: 3527 Mt Diablo Blvd, Unit 269, Lafayette, CA 94549</li>
+          <li>Name: Sander Bangma &amp; Jun Pataleta</li>
+          <li>Company: Moodle Pty Ltd</li>
+          <li>Address: PO Box 303, West Perth WA 6872, Australia</li>
           <li>
-            Email:
-            <a href="mailto:mike.gifford@civicactions.com"
-              >mike.gifford@civicactions.com</a
-            >
+            Email: <a href="mailto:support@moodle.com">support@moodle.com</a>
           </li>
-          <li>Phone: (510) 408-7510</li>
+
           <li>
             Website:
-            <a href="https://civicactions.com/">https://civicactions.com/</a>
+            <a href="https://docs.moodle.org">https://docs.moodle.org</a>
           </li>
         </ul>
-
-        <h2 id="notes">
-          <a href="#notes" aria-hidden="true" class="header-anchor">#</a>
-          Notes
-        </h2>
-        Links to the issues identified are included where possible to ensure
-        that this is a living document where outstanding issues are regularly
-        reviewed for compliance. The Authoring tool is evaluated against ATAG
-        2.0, Part A and B. Incorporating feedback from the Drupal community.
 
         <h2 id="evaluation-methods">
           <a href="#evaluation-methods" aria-hidden="true" class="header-anchor"
@@ -98,10 +87,19 @@
           >
           Evaluation Methods Used
         </h2>
-        Use of automated tools like WAVE and Accessibility Insights. Manual
-        keyboard only testing. Some testing with JAWS, NVDA and VoiceOver. The
-        evaluation process also includes a review of the Drupal Core
-        accessibility issue queue.
+        This conformance report is based on the results of an accessibility
+        audit conducted by Web Key IT on a sample of 20 key pages. These pages
+        were selected by Web Key IT and agreed on by Moodle as representative of
+        the overall accessibility and functionality of the Moodle learning
+        management system (LMS). The evaluation was completed following the WCAG
+        Evaluation Methodology (WCAG-EM). The pages were audited manually and
+        cross-checked using a team of website evaluators to ensure that the
+        results and comments presented are valid and comprehensive. Separate and
+        external testing of these pages has been conducted by a group of trained
+        testers, all with disabilities. The following tools and applications
+        were used as part of the audit: Desktop browsers Google Chrome Internet
+        Explorer 11 Firefox Screen reader JAWS NVDA Other tools NU HTML
+        Validator
 
         <h2 id="applicable-standards-guidelines">
           <a
@@ -200,15 +198,6 @@
           Table 1: Success Criteria, Level A
         </h3>
 
-        Notes: Drupal doesn&#x27;t make a strong distinction between the
-        front-end &amp; back-end accessibility. Many administration interfaces
-        can be exposed to users in a more interactive site. Generally this
-        report focuses the Conformance Level / Remarks and Explainations so that
-        Web comments are about elements that are typically public, while
-        Authoring Tool is typically for authors and administrators. The goal of
-        the authoring interface is to support ATAG 2.0 AA (Part A and B). The
-        Drupal community strives to beek up with the latest WCAG recommendation.
-
         <table class="usa-table">
           <thead>
             <tr>
@@ -227,31 +216,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Drupal 8 requires alt text for images
-                    by default.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Some non-textual content
-                    in the documentation does not provide a textual alternative.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The back end of Drupal Core
-                    was built to be WCAG 2.0 AA compliant and non-text content
-                    in the administration interface has a textual equivalent.
-                    Audio and video can be added to the media library, but Core
-                    does not provide tools to manage transcripts and
-                    captions/subtitles for local video and audio - Drupal issue
-                    3002770.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.2.1">
@@ -263,25 +234,19 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Authors can satisfy 1.2.1 Audio-only
-                    and Video-only (Prerecorded) by using text on the same page.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: This is not explicitly
-                    defined in the documentation.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no additional
-                    support for authors within the authoring interface to
-                    explain how this can be done.
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but it provides options for content
+                    creators to upload video/audio content with captions and
+                    subtitles. Video/audio transcripts can also be provided by
+                    content creators.
                   </li>
                 </ul>
               </td>
@@ -294,24 +259,18 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: The file module in Core lets authors
-                    upload audio and video content, and output &lt;audio&gt; and
-                    &lt;video&gt; elements and does not support captions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Drupal does not support,
-                    let alone require users to include captions. Hard coding
-                    open captions is presently the only way to satisfy this in
-                    Core.
+                    <strong>Web</strong>: Moodle provides options for content
+                    creators to attach captions to uploaded audio and video
+                    content.
                   </li>
                 </ul>
               </td>
@@ -324,26 +283,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
-                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Audio files can be uploaded, but there
-                    is no way to associate captions in Core.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There is no documentation
-                    on how to properly convey pre-recorded audio descriptions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no audio in the
-                    authoring interface of Drupal Core, but there is no support
-                    for authors to upload accessible audio files.
+                    <strong>Web</strong>: Content creators can upload audio and
+                    video content with audio descriptions or media alternatives.
                   </li>
                 </ul>
               </td>
@@ -358,33 +308,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Information is structured into logical
-                    relationships. Navigational lists are well used to group
-                    information. Forms have a visual and semantic representation
-                    for required fields. Message windows have ARIA role defined
-                    incorrectly as role&#x3D;contentinfo which impacts content
-                    relationships - Drupal issue 2942404. aria-live announcement
-                    is not contained in a landmark - Drupal issue 3098857.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Information is structured
-                    into logical relationships. Navigational lists are well used
-                    to group information.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The authoring environment
-                    was constructed to support ATAG 2.0 AA (Part A and B).
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.3.2">
@@ -398,23 +329,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Drupal Core has been extensively
-                    tested with keyboard only users. As a proudly multilingual
-                    CMS, Drupal provides support for bidirectional navigation.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The authoring environment
-                    was constructed to support ATAG 2.0 AA (Part A and B).
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.3.3">
@@ -427,22 +348,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Where possible Drupal Core uses
-                    combinations of text and symbols for the user interface.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The authoring interface has
-                    been developed to not rely on symbols alone to convey
-                    information to the user.
+                    <strong>Web</strong>: Moodle does not solely rely on sensory
+                    characteristics. However, it has question types that require
+                    users to drag and drop answers to questions in a quiz. A
+                    disclaimer is provided to warn quiz creators that drag and
+                    drop question types are not accessible for visually impaired
+                    users.
                   </li>
                 </ul>
               </td>
@@ -458,23 +378,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Color is not used without text and
-                    often symbols to convey meaning.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: In general, the admin theme
-                    is very accessible. The Claro Administration Theme shortcut
-                    start needs improvement - Drupal issue 3171726.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.4.2">
@@ -487,14 +397,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: User-uploaded audio and video content
+                    are set not auto-play by default although content creators
+                    have the option to enable or disable automatic playback of
+                    audio and video content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.1.1">
@@ -508,29 +425,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Users can interact with Drupal Core
-                    with the keyboard and without specific timings for
-                    individual keystrokes.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Authors are largely able to
-                    engage with Drupal Core with the keyboard and without
-                    specific timings for individual keystrokes. Tooltips not
-                    displayed for keyboard navigation - Drupal issue 2933984.
-                    There are reported issues with IE11 and JAWS - Drupal issue
-                    2852702. It is worth noting that Drupal&#x27;s admin is
-                    powerful and complex, and there are other accessibility
-                    reports in the issue queue.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.1.2">
@@ -544,22 +445,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Focus can be moved away from that
-                    component using only a keyboard interface.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Focus can be moved away
-                    from that component using only a keyboard interface.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.1">
@@ -573,20 +465,17 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: The time limit is longer than 20
-                    hours.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The time limit is longer
-                    than 20 hours.
+                    <strong>Web</strong>: Moodle&#x27;s rich text editor
+                    supports keyboard shortcuts. These shortcuts are only active
+                    when the user is in the editing area.
                   </li>
                 </ul>
               </td>
@@ -599,14 +488,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: This has not been evaluated because
+                    Moodle does not natively contain moving, blinking, and
+                    scrolling content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.3.1">
@@ -622,20 +517,11 @@
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There are no flashing elements in
-                    Drupal Core.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There are no flashing
-                    elements in Drupal Core.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.1">
@@ -649,19 +535,19 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Skip links are provided.</li>
                   <li>
-                    <strong>Electronic Docs</strong>: Skip links are provided.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Skip links are provided.
+                    <strong>Web</strong>: Skip links are supported in all main
+                    browsers, with the exception of Internet Explorer. With
+                    Microsoft ending its support for Internet Explorer, Moodle
+                    has ceased support for this browser from Moodle 3.10
+                    onwards.
                   </li>
                 </ul>
               </td>
@@ -677,24 +563,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Pages have titles, but in the case of
-                    multi-page events, the page number is not included - Drupal
-                    issue 2509716.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Pages have titles, but in
-                    the case of multi-page events, the page number is not
-                    included - Drupal issue 2509716.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.3">
@@ -708,28 +583,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Focusable components receive focus in
-                    an order that preserves meaning and operability.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Focusable components
-                    receive focus in an order that preserves meaning and
-                    operability.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Focusable components
-                    receive focus in an order that preserves meaning and
-                    operability.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.4">
@@ -745,24 +605,11 @@
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Careful attention has been paid to
-                    ensure that automated &quot;Read More&quot; links are
-                    available in a way that is available with contextual
-                    information for screen readers.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Careful attention has been
-                    paid to ensure that automated &quot;Read More&quot; links
-                    are available in a way that is available with contextual
-                    information for screen readers.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.1.1">
@@ -774,26 +621,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Page language is defined semantically
-                    on every page.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Page language is defined
-                    semantically on every page.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Page language is defined
-                    semantically on every page.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.2.1">
@@ -807,26 +641,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Change in the focus state does not
-                    initiate a change of context for the user.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Change in the focus state
-                    does not initiate a change of context for the user.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Change in the focus state
-                    does not initiate a change of context for the user.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.2.2">
@@ -840,28 +661,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Engaging with the interactive sites
-                    does not unexpectedly take control from the users.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Engaging with the
-                    interactive sites does not unexpectedly take control from
-                    the users.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Engaging with the
-                    interactive sites does not unexpectedly take control from
-                    the users.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.3.1">
@@ -875,24 +681,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The Inline Form Error module was added
-                    in Drupal 8. This needs to be enabled site-wide on
-                    installation.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The Inline Form Error
-                    module was added in Drupal 8. This needs to be enabled
-                    site-wide on installation.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.3.2">
@@ -904,22 +699,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Default forms all include labels.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There are a few places
-                    where there are problems with labels, but these are odd
-                    exceptions - Drupal issue 3015494.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="4.1.1">
@@ -931,28 +717,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There are no HTML5 errors or warnings
-                    that are known to impact assistive technology users.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There are no HTML5 errors
-                    or warnings that are known to impact assistive technology
-                    users.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally parsing is very
-                    well supported, but there are a few places where this needs
-                    to be improved - Drupal issue 1852090 and 3144948.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="4.1.2">
@@ -964,26 +735,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Public pages support this criterion.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Public pages support this
-                    criterion.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: This is generally well
-                    supported, but there are places where it has been
-                    overlooked. Drupal issue 3144948, 3019487, and 3085545.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
           </tbody>
@@ -1024,7 +782,12 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not contain synchronised
+                    media with live audio content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.5">
@@ -1037,26 +800,19 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
-                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Audio files can be uploaded, but there
-                    is no way to associate captions in Core.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There is no documentation
-                    on how to properly convey pre-recorded audio descriptions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no audio in the
-                    authoring interface of Drupal Core, but there is no support
-                    for authors to upload accessible audio files.
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload audio and
+                    video content with audio descriptions or media alternatives
+                    to these content.
                   </li>
                 </ul>
               </td>
@@ -1072,25 +828,19 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Generally meets. Some contrast
-                    failures around grey backgrounds - Drupal issue 3040673.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: The docs have sufficient
-                    contrast.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally meets
-                    requirements. Some challenges with Core admin themes -
-                    Drupal issue 930508 and 3080100.
+                    <strong>Web</strong>: Moodle does not rely solely on colour
+                    to convey visual information. Though there are some known
+                    colour contrast issues: - Dimmed text in tables with striped
+                    rows have insufficient contrast against rows with a grey
+                    background.
                   </li>
                 </ul>
               </td>
@@ -1105,27 +855,13 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Generally support with some minor
-                    exceptions - Drupal issue 3129257.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: The docs are accessible up
-                    to 200%.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally good with some
-                    exceptions - Drupal issue 3164587.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.4.5">
@@ -1138,21 +874,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Authoring Tool</strong>: Text is generally styled
-                    with CSS in the authoring tool. Should images of text be
-                    uploaded by the user, they will be required to add
-                    alternative text.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.5">
@@ -1166,25 +895,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
+                  <li><strong>Software</strong>: Not Applicable</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There is more than one way to locate a
-                    Web page within the CMS.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There is more than one way
-                    to locate a Web page within the CMS.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is more than one way
-                    to locate a Web page within the CMS.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.6">
@@ -1197,26 +914,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Generally there is very good support.
-                    Some heading levels may be missed in some unique contexts -
-                    Drupal issue 1768732. Better support could be provided for
-                    threaded comments - Drupal issue 2290043.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally good, but for
-                    dynamic elements like the Layout Builder need a plan for a
-                    dynamic heading structure - Drupal issue 3007978.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.7">
@@ -1229,25 +934,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Focus elements are well established
-                    for the front-end. Further enhancements are being developed
-                    to make it more obvious for keyboard only users.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: An IE specific bug where
-                    there are focus issues for authors and administrators in the
-                    Claro theme - Drupal issue 3048785.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.1.2">
@@ -1258,27 +952,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Multilingual sites have language
-                    switchers with proper semantics. Unfotunately support is
-                    lacking for multi-lingual search 2992894 as well as both the
-                    Filesystem 3163915 &amp; Views components 2496223.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Drupal has good support for
-                    multilingual content and accessibility. To support the
-                    Language of Parts for authors, a button can be added to
-                    simplify the process of adding language specific phrases.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.2.3">
@@ -1292,25 +973,12 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Drupal&#x27;s menu structure allows
-                    for consistent navigation across the site.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Drupal&#x27;s menu
-                    structure allows for consistent navigation across the site.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Drupal&#x27;s menu
-                    structure allows for consistent navigation across the site.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.2.4">
@@ -1324,25 +992,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
+                  <li><strong>Software</strong>: Not Applicable</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Components in Drupal that have the
-                    same functionality are identified consistently.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Components in Drupal that
-                    have the same functionality are identified consistently.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Components in Drupal that
-                    have the same functionality are identified consistently.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.3.3">
@@ -1358,22 +1014,11 @@
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The Inline Form Error Module is
-                    provided in Core and needs to be enabled to allow for this
-                    functionality.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The Inline Form Error
-                    Module is provided in Core and needs to be enabled to allow
-                    for this functionality.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.3.4">
@@ -1387,27 +1032,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: By default users can editing content
-                    which they own.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Documentation could be
-                    improved.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is nothing to
-                    differentiate editing financial or legal data from any other
-                    data managed by Drupal.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
           </tbody>
@@ -1422,9 +1053,6 @@
           >
           Table 3: Success Criteria, Level AAA
         </h3>
-
-        Notes: Where possible the Drupal community strives to exceed AA
-        compliance.
 
         <table class="usa-table">
           <thead>
@@ -1447,7 +1075,13 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload
+                    prerecorded video content with sign language.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.7">
@@ -1462,7 +1096,14 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload
+                    prerecorded multimedia content with extended audio
+                    descriptions.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.8">
@@ -1477,7 +1118,13 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can provide media
+                    alternatives for their prerecorded multimedia content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.9">
@@ -1505,14 +1152,18 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: A front-end and back-end theme could
-                    be configured to allow this to comply.
+                    <strong>Web</strong>: Text colours in Moodle usually have a
+                    contrast ratio greater than 7:1 against their background.
+                    There are some texts with colours that meet the minimum
+                    contrast ratio of 4.5:1 for WCAG 2.1 Level AA but do not
+                    meet the enhanced colour contrast requirement of 7:1 for
+                    WCAG 2.1 Level AAA.
                   </li>
                 </ul>
               </td>
@@ -1544,17 +1195,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Evaluated</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Stable Core themes leave much of the
-                    presentation of text to user agents, so aside from line
-                    spacing this generally works.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.4.9">
@@ -1571,12 +1216,7 @@
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Text images are all supplied by the
-                    author.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.1.3">
@@ -1593,12 +1233,7 @@
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The web front-end is not a barrier to
-                    keyboard only users.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.3">
@@ -1615,12 +1250,7 @@
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There are no timeouts in Drupal Core
-                    that would affect people with disabilities.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.4">
@@ -1648,7 +1278,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
@@ -1663,13 +1293,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li><strong>Web</strong>: There is no flashing content.</li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.8">
@@ -1686,13 +1314,7 @@
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Breadcrumbs are available and sitemap
-                    modules can be added to provide additional means for
-                    navigation.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.9">
@@ -1711,8 +1333,13 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: There is a mechanism to support
-                    automated links with semantic descriptive titles.
+                    <strong>Web</strong>: Most links are uniquely identifiable
+                    by the link text only. However, some known areas where the
+                    link purpose cannot be determined by the link text only are:
+                    - Edit, delete, reply links in a list of posts within a
+                    forum discussion - The letter links for filtering a list of
+                    users by first name or surname do not make sense out of
+                    context.
                   </li>
                 </ul>
               </td>
@@ -1747,7 +1374,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                 </ul>
               </td>
               <td>
@@ -1762,11 +1389,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Abbreviations in Moodle&#x27;s
+                    language strings such as KB, MB, PDF, Doc, etc., are not
+                    enclosed in &lt;abbr&gt; tags nor auto-linked to a
+                    dictionary definition. However, there is a mechanism that
+                    can enable auto-linking of user-generated content to a
+                    glossary.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.1.5">
@@ -1777,11 +1413,18 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle&#x27;s language strings in its
+                    user interface are aimed to be descriptive and concise. It
+                    also has several language packs that can be downloaded and
+                    installed for sites that have children as the primary users.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.1.6">
@@ -1792,7 +1435,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                 </ul>
               </td>
               <td>
@@ -1809,7 +1452,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
@@ -1826,11 +1469,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Context-sensitive help is provided for
+                    input elements in forms where the label may not be
+                    sufficient to explain the purpose of the input element.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.3.6">
@@ -1843,11 +1492,19 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Form validation mechanisms are
+                    provided to allow users to correct their inputs when
+                    completing a form. Confirmation dialogues or pages are also
+                    present to prevent users from accidentally performing an
+                    irreversible action (e.g. data deletion, etc).
+                  </li>
+                </ul>
               </td>
             </tr>
           </tbody>
@@ -1886,12 +1543,16 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>Testing has been done with JAWS, NVDA and VoiceOver.</li>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Form elements often do not have
+                    labels.
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -1908,7 +1569,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Testing has been done with browser zoom and ZoomText.</li>
+                  <li>Screen magnification users are supported.</li>
                 </ul>
               </td>
             </tr>
@@ -1920,12 +1581,16 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>The interface has been reviewed for use of color.</li>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Color alone is not used to convey
+                    information.
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -1982,14 +1647,15 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    Drupal&#x27;s interface does not restrict users with limited
-                    manipulation.
+                    Limitations for keyboard only users as per the remarks in
+                    the Success Criterion listed above. There are still a few
+                    keyboard traps.
                   </li>
                 </ul>
               </td>
@@ -2007,10 +1673,7 @@
               </td>
               <td>
                 <ul>
-                  <li>
-                    Drupal&#x27;s interface does not restrict users with limited
-                    reach or strength.
-                  </li>
+                  <li>No limits for strength.</li>
                 </ul>
               </td>
             </tr>
@@ -2037,16 +1700,14 @@
           Chapter 4: Hardware
         </h3>
 
-        Notes: Drupal is a web application. Hardware accessibility criteria is
-        not applicable.
+        Notes: Hardware accessibility criteria is not applicable.
 
         <h3 id="software">
           <a href="#software" aria-hidden="true" class="header-anchor">#</a>
           Chapter 5: Software
         </h3>
 
-        Notes: Drupal is a web application. Software accessibility criteria is
-        not applicable.
+        Notes: Software accessibility criteria is not applicable.
 
         <h3 id="support_documentation_and_services">
           <a
@@ -2057,10 +1718,6 @@
           >
           Chapter 6: Support Documentation and Services
         </h3>
-
-        Notes: Drupal is a web application and all support documentation is
-        delivered through the web. Additional documentation and services are not
-        available.
 
         <table class="usa-table">
           <thead>
@@ -2136,11 +1793,11 @@
         </table>
 
         <h2>Legal Disclaimer</h2>
-        The information herein is provided in good faith based on the analysis
-        of the web application at the time of the review and does not represent
-        a legally-binding claim. Please contact us to report any accessibility
-        errors or conformance claim errors for re-evaluation and correction, if
-        necessary.
+        The information herein is provided in good faith based on Moodle 3.10 at
+        the time of the accessibility audit and does not represent a legally
+        binding claim. Please [contact Moodle Pty
+        Ltd](https://moodle.com/contact/) to report any accessibility errors or
+        conformance claim errors for re-evaluation and correction, if necessary.
       </div>
     </main>
     <footer class="usa-footer usa-footer usa-footer--slim">

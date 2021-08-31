@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Drupal Accessibility Conformance Report</title>
+    <title>GovReady PBC Accessibility Conformance Report</title>
     <script
       type="text/javascript"
       charset="utf8"
@@ -22,7 +22,7 @@
     ></script>
     <main>
       <div class="grid-container">
-        <h1>Drupal Accessibility Conformance Report</h1>
+        <h1>GovReady PBC Accessibility Conformance Report</h1>
 
         Based on VPAT® 2.4 Revised Section 508 Edition
         <h2 id="name-of-product-version">
@@ -34,13 +34,13 @@
           >
           Name of Product/Version
         </h2>
-        Drupal 9.1
+        GovReady 0.9.1.36
 
         <h2 id="report-date">
           <a href="#report-date" aria-hidden="true" class="header-anchor">#</a>
           Report Date
         </h2>
-        8/25/2021
+        8/30/2021
 
         <h2 id="product-description">
           <a
@@ -51,7 +51,10 @@
           >
           Product Description
         </h2>
-        Content Management System
+        GovReady is a user-friendly cybersecurity Governance, Risk, and
+        Compliance (GRC) web application focused on guiding teams through the
+        NIST Risk Management Framework using Compliance-As-Code and
+        collaborative features.
 
         <h2 id="contact-information">
           <a
@@ -82,15 +85,45 @@
             <a href="https://civicactions.com/">https://civicactions.com/</a>
           </li>
         </ul>
+        <h3 id="vendor">
+          <a href="#vendor" aria-hidden="true" class="header-anchor">#</a>
+          Vendor Information
+        </h3>
+        <ul>
+          <li>Name: Greg Elin</li>
+          <li>Company: GovReady PBC</li>
+          <li>
+            Address: 32011 Crystal Drive STE 400, Arlington, VA 22202-3709
+          </li>
+          <li>
+            Email:
+            <a href="mailto:gregelin@govready.com">gregelin@govready.com</a>
+          </li>
+          <li>Phone: 202-505-1050</li>
+          <li>
+            Website: <a href="https://govready.com/">https://govready.com/</a>
+          </li>
+        </ul>
 
         <h2 id="notes">
           <a href="#notes" aria-hidden="true" class="header-anchor">#</a>
           Notes
         </h2>
-        Links to the issues identified are included where possible to ensure
-        that this is a living document where outstanding issues are regularly
-        reviewed for compliance. The Authoring tool is evaluated against ATAG
-        2.0, Part A and B. Incorporating feedback from the Drupal community.
+        All user interfaces for the GovReady software are done through the web
+        interface, so the focus is on the WCAG 2.0 Report. Chapter 5 has been
+        deleted as it is redundant. GovReady is built on the Django framework
+        and some of the accessibility issues have been inherited from this
+        framework. GovReady is an open source tool with an open issue queue.
+        Accessibility issues identified here will be documented as accessibility
+        issues within existing issue queues. Any workarounds will be available
+        within the issue queue until such time as the problem is resolved. The
+        Authoring Tools components, 504, have not been reviewed in this
+        assessment. Content is generally saved in a machine readable format that
+        allows for it to be processed in many ways. All GovReady documentation
+        is available through the web interface, so the focus is on the WCAG 2.0
+        Report. Chapter 6 has been deleted as it is redundant. The documentation
+        is being served through Read the Docs and with their default theme. Some
+        accessibility issues have been inherited from this framework.
 
         <h2 id="evaluation-methods">
           <a href="#evaluation-methods" aria-hidden="true" class="header-anchor"
@@ -98,10 +131,14 @@
           >
           Evaluation Methods Used
         </h2>
-        Use of automated tools like WAVE and Accessibility Insights. Manual
-        keyboard only testing. Some testing with JAWS, NVDA and VoiceOver. The
-        evaluation process also includes a review of the Drupal Core
-        accessibility issue queue.
+        Testing was done through a combination of manual and automated testing.
+        We leveraged automated tools WebAim&#x27;s WAVE Toolbar and
+        Microsoft&#x27;s Accessibility Insights. Accessibility Insights
+        leverages Deque&#x27;s open source Axe accessibility engine. Manual
+        testing was done using keyboard interactions and Apple&#x27;s VoiceOver.
+        Chrome v84 was used as the browser for all tests. Unique patterns were
+        identified and tested to see where barriers might exist. Extensive
+        testing of the site&#x27;s functionality has been done based on this.
 
         <h2 id="applicable-standards-guidelines">
           <a
@@ -200,14 +237,11 @@
           Table 1: Success Criteria, Level A
         </h3>
 
-        Notes: Drupal doesn&#x27;t make a strong distinction between the
-        front-end &amp; back-end accessibility. Many administration interfaces
-        can be exposed to users in a more interactive site. Generally this
-        report focuses the Conformance Level / Remarks and Explainations so that
-        Web comments are about elements that are typically public, while
-        Authoring Tool is typically for authors and administrators. The goal of
-        the authoring interface is to support ATAG 2.0 AA (Part A and B). The
-        Drupal community strives to beek up with the latest WCAG recommendation.
+        Notes: GovReady-Q is a web application and an authoring tool. As such
+        the Software &amp; Authoring Tool Notes are all included within the Web
+        for the &#x27;Conformance Level&#x27; and &#x27;Remarks and
+        Explanations&#x27;. There are some elements here that clearly fail WCAG
+        2.0 A.
 
         <table class="usa-table">
           <thead>
@@ -226,7 +260,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Does Not Support</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Supports</li>
@@ -235,21 +269,18 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Drupal 8 requires alt text for images
-                    by default.
+                    <strong>Web</strong>: There are currently no videos. Graphs
+                    are provided by a 3rd party tool. Many images do yet have
+                    proper alt text.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Some non-textual content
-                    in the documentation does not provide a textual alternative.
+                    <strong>Electronic Docs</strong>: Some images contain
+                    complex information which would be better explained using
+                    longtext or visible captions as well as basic alt text.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: The back end of Drupal Core
-                    was built to be WCAG 2.0 AA compliant and non-text content
-                    in the administration interface has a textual equivalent.
-                    Audio and video can be added to the media library, but Core
-                    does not provide tools to manage transcripts and
-                    captions/subtitles for local video and audio - Drupal issue
-                    3002770.
+                    <strong>Authoring Tool</strong>: An image is used for a
+                    horizontal rule that needs to be marked as decorative.
                   </li>
                 </ul>
               </td>
@@ -262,28 +293,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Authors can satisfy 1.2.1 Audio-only
-                    and Video-only (Prerecorded) by using text on the same page.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: This is not explicitly
-                    defined in the documentation.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no additional
-                    support for authors within the authoring interface to
-                    explain how this can be done.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.2.2">
@@ -294,26 +311,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The file module in Core lets authors
-                    upload audio and video content, and output &lt;audio&gt; and
-                    &lt;video&gt; elements and does not support captions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Drupal does not support,
-                    let alone require users to include captions. Hard coding
-                    open captions is presently the only way to satisfy this in
-                    Core.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.2.3">
@@ -324,28 +329,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
-                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Audio files can be uploaded, but there
-                    is no way to associate captions in Core.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There is no documentation
-                    on how to properly convey pre-recorded audio descriptions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no audio in the
-                    authoring interface of Drupal Core, but there is no support
-                    for authors to upload accessible audio files.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.3.1">
@@ -367,22 +358,18 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Information is structured into logical
-                    relationships. Navigational lists are well used to group
-                    information. Forms have a visual and semantic representation
-                    for required fields. Message windows have ARIA role defined
-                    incorrectly as role&#x3D;contentinfo which impacts content
-                    relationships - Drupal issue 2942404. aria-live announcement
-                    is not contained in a landmark - Drupal issue 3098857.
+                    <strong>Web</strong>: Most information is structured into
+                    logical relationships. Lists are well used to group
+                    information and provide navigation. Forms do not have a
+                    visual or semantic representation for required fields.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Information is structured
-                    into logical relationships. Navigational lists are well used
-                    to group information.
+                    <strong>Electronic Docs</strong>: Site has consistent
+                    information and relationships.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: The authoring environment
-                    was constructed to support ATAG 2.0 AA (Part A and B).
+                    <strong>Authoring Tool</strong>: Site has consistent
+                    information and relationships.
                   </li>
                 </ul>
               </td>
@@ -406,13 +393,16 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Drupal Core has been extensively
-                    tested with keyboard only users. As a proudly multilingual
-                    CMS, Drupal provides support for bidirectional navigation.
+                    <strong>Web</strong>: Site follows a correct reading
+                    sequence.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: The authoring environment
-                    was constructed to support ATAG 2.0 AA (Part A and B).
+                    <strong>Electronic Docs</strong>: Site has consistent
+                    information and relationships.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: Site has consistent
+                    information and relationships.
                   </li>
                 </ul>
               </td>
@@ -435,14 +425,12 @@
               </td>
               <td>
                 <ul>
+                  <li><strong>Web</strong>: Follows best practices.</li>
                   <li>
-                    <strong>Web</strong>: Where possible Drupal Core uses
-                    combinations of text and symbols for the user interface.
+                    <strong>Electronic Docs</strong>: Follows best practices.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: The authoring interface has
-                    been developed to not rely on symbols alone to convey
-                    information to the user.
+                    <strong>Authoring Tool</strong>: Follows best practices.
                   </li>
                 </ul>
               </td>
@@ -466,13 +454,15 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Color is not used without text and
-                    often symbols to convey meaning.
+                    <strong>Web</strong>: Color is used to a minimal extent.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: In general, the admin theme
-                    is very accessible. The Claro Administration Theme shortcut
-                    start needs improvement - Drupal issue 3171726.
+                    <strong>Electronic Docs</strong>: Color is used to a minimal
+                    extent.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: Color is used to a minimal
+                    extent.
                   </li>
                 </ul>
               </td>
@@ -507,28 +497,27 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Supports</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Users can interact with Drupal Core
-                    with the keyboard and without specific timings for
-                    individual keystrokes.
+                    <strong>Web</strong>: Generally it is excellent, but the
+                    Review pages and pages with Long Text have some elements
+                    which cannot be activated with a keyboard. On the Long Text
+                    with discussion pages it is clear that the WYSIWYG,
+                    discussion emoji and file upload functionality also have no
+                    support for keyboard only users.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Authors are largely able to
-                    engage with Drupal Core with the keyboard and without
-                    specific timings for individual keystrokes. Tooltips not
-                    displayed for keyboard navigation - Drupal issue 2933984.
-                    There are reported issues with IE11 and JAWS - Drupal issue
-                    2852702. It is worth noting that Drupal&#x27;s admin is
-                    powerful and complex, and there are other accessibility
-                    reports in the issue queue.
+                    <strong>Electronic Docs</strong>: Supports keyboard users.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: Supports keyboard users.
                   </li>
                 </ul>
               </td>
@@ -543,7 +532,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Supports</li>
@@ -552,12 +541,16 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Focus can be moved away from that
-                    component using only a keyboard interface.
+                    <strong>Web</strong>: The Long Text pattern has no way to
+                    tab past the data entry block.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Focus can be moved away
-                    from that component using only a keyboard interface.
+                    <strong>Electronic Docs</strong>: No keyboard traps were
+                    identified.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: No keyboard traps were
+                    identified.
                   </li>
                 </ul>
               </td>
@@ -572,23 +565,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The time limit is longer than 20
-                    hours.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The time limit is longer
-                    than 20 hours.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.2">
@@ -619,21 +603,18 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>
-                    <strong>Web</strong>: There are no flashing elements in
-                    Drupal Core.
-                  </li>
+                  <li><strong>Web</strong>: There are no flashing elements.</li>
                   <li>
                     <strong>Authoring Tool</strong>: There are no flashing
-                    elements in Drupal Core.
+                    elements.
                   </li>
                 </ul>
               </td>
@@ -648,20 +629,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Skip links are provided.</li>
                   <li>
-                    <strong>Electronic Docs</strong>: Skip links are provided.
+                    <strong>Web</strong>: There are no skip link elements on the
+                    site for keyboard only users.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Skip links are provided.
+                    <strong>Electronic Docs</strong>: Similar issues 1.4.3 with
+                    Read the Docs default theme not including skip links.
                   </li>
                 </ul>
               </td>
@@ -685,14 +667,15 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Pages have titles, but in the case of
-                    multi-page events, the page number is not included - Drupal
-                    issue 2509716.
+                    <strong>Web</strong>: All pages include a meaningful title.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Pages have titles, but in
-                    the case of multi-page events, the page number is not
-                    included - Drupal issue 2509716.
+                    <strong>Electronic Docs</strong>: All pages include a
+                    meaningful title.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: All pages include a
+                    meaningful title.
                   </li>
                 </ul>
               </td>
@@ -716,13 +699,12 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Focusable components receive focus in
-                    an order that preserves meaning and operability.
+                    <strong>Web</strong>: Focus ordering would be improved if
+                    action buttons were on the left of the screen.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Focusable components
-                    receive focus in an order that preserves meaning and
-                    operability.
+                    <strong>Electronic Docs</strong>: Generally good but
+                    Previous/Next links are in reverse order.
                   </li>
                   <li>
                     <strong>Authoring Tool</strong>: Focusable components
@@ -742,25 +724,25 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Electronic Docs</strong>: Partially Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Careful attention has been paid to
-                    ensure that automated &quot;Read More&quot; links are
-                    available in a way that is available with contextual
-                    information for screen readers.
+                    <strong>Web</strong>: n some places links and buttons are
+                    described insufficiently to be understood in isolation.
+                    There are also empty links on some pages. The Django
+                    administration pages have many empty links.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Careful attention has been
-                    paid to ensure that automated &quot;Read More&quot; links
-                    are available in a way that is available with contextual
-                    information for screen readers.
+                    <strong>Electronic Docs</strong>: Generally good, but
+                    Previous/Next buttons use titles to convey the title of the
+                    previous/next content on hover, but this isn&#x27;t
+                    accessible.
                   </li>
                 </ul>
               </td>
@@ -774,7 +756,7 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Supports</li>
                 </ul>
@@ -782,16 +764,16 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Page language is defined semantically
-                    on every page.
+                    <strong>Web</strong>: English is the only supported language
+                    and each page is properly defined.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Page language is defined
-                    semantically on every page.
+                    <strong>Electronic Docs</strong>: Language of the page is
+                    commented out in the theme.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Page language is defined
-                    semantically on every page.
+                    <strong>Authoring Tool</strong>: English is the only
+                    supported language and each page is properly defined.
                   </li>
                 </ul>
               </td>
@@ -815,16 +797,16 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Change in the focus state does not
-                    initiate a change of context for the user.
+                    <strong>Web</strong>: Keyboard only users are able to
+                    control the focus of the page.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Change in the focus state
-                    does not initiate a change of context for the user.
+                    <strong>Electronic Docs</strong>: Keyboard only users are
+                    able to control the focus of the page.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Change in the focus state
-                    does not initiate a change of context for the user.
+                    <strong>Authoring Tool</strong>: Keyboard only users are
+                    able to control the focus of the page.
                   </li>
                 </ul>
               </td>
@@ -852,9 +834,8 @@
                     does not unexpectedly take control from the users.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Engaging with the
-                    interactive sites does not unexpectedly take control from
-                    the users.
+                    <strong>Electronic Docs</strong>: The search elements of the
+                    site do not unexpectedly take control from the users.
                   </li>
                   <li>
                     <strong>Authoring Tool</strong>: Engaging with the
@@ -874,23 +855,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: The Inline Form Error module was added
-                    in Drupal 8. This needs to be enabled site-wide on
-                    installation.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The Inline Form Error
-                    module was added in Drupal 8. This needs to be enabled
-                    site-wide on installation.
+                    <strong>Web</strong>: No error identification is currently
+                    built into the application.
                   </li>
                 </ul>
               </td>
@@ -903,21 +878,24 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Default forms all include labels.
+                    <strong>Web</strong>: There are some forms without labels in
+                    the current version. Generally the context is clear for most
+                    forms, but it should be improved. Date fields should be in a
+                    fieldset. The Django administration pages have many fields
+                    without labels.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: There are a few places
-                    where there are problems with labels, but these are odd
-                    exceptions - Drupal issue 3015494.
+                    <strong>Electronic Docs</strong>: There are no labels on the
+                    search.
                   </li>
                 </ul>
               </td>
@@ -930,27 +908,23 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: There are no HTML5 errors or warnings
-                    that are known to impact assistive technology users.
+                    <strong>Web</strong>: Generally good. A few small instances
+                    of duplicate ID&#x27;s, tags not being closed, and empty
+                    headings. The Data Grid Question pattern includes
+                    edit/delete buttons that are not properly formed.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: There are no HTML5 errors
-                    or warnings that are known to impact assistive technology
-                    users.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally parsing is very
-                    well supported, but there are a few places where this needs
-                    to be improved - Drupal issue 1852090 and 3144948.
+                    <strong>Electronic Docs</strong>: Generally very good but a
+                    few warnings.
                   </li>
                 </ul>
               </td>
@@ -963,25 +937,24 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Electronic Docs</strong>: Partially Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Public pages support this criterion.
+                    <strong>Web</strong>: There are some forms without labels in
+                    the current version. Generally the context is clear for most
+                    forms, but it should be improved. Date fields should be in a
+                    fieldset. The Django administration pages have many fields
+                    without labels.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Public pages support this
-                    criterion.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: This is generally well
-                    supported, but there are places where it has been
-                    overlooked. Drupal issue 3144948, 3019487, and 3085545.
+                    <strong>Electronic Docs</strong>: There are no labels on the
+                    search forms.
                   </li>
                 </ul>
               </td>
@@ -1037,28 +1010,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
-                  <li><strong>Electronic Docs</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Does Not Support</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Audio files can be uploaded, but there
-                    is no way to associate captions in Core.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: There is no documentation
-                    on how to properly convey pre-recorded audio descriptions.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is no audio in the
-                    authoring interface of Drupal Core, but there is no support
-                    for authors to upload accessible audio files.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.4.3">
@@ -1072,7 +1031,7 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Partially Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Supports</li>
                 </ul>
@@ -1080,17 +1039,23 @@
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Generally meets. Some contrast
-                    failures around grey backgrounds - Drupal issue 3040673.
+                    <strong>Web</strong>: There are contrast issues in the
+                    navigation and in some detail pages where the user
+                    experience was aiming to reduce importance. Gradients are
+                    used to provide a nice visual effect, but often provide some
+                    issues with contrast. Review pages also have elements
+                    without sufficient contrast. The Django administration pages
+                    have many contrast errors.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: The docs have sufficient
-                    contrast.
+                    <strong>Electronic Docs</strong>: Most of the content meets
+                    requirements but the site is built off of the Read the Docs
+                    default theme sphinx_rtd_theme which has color contrast
+                    issues that will need to be overwritten.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Generally meets
-                    requirements. Some challenges with Core admin themes -
-                    Drupal issue 930508 and 3080100.
+                    <strong>Authoring Tool</strong>: Generally follows contrast
+                    requirements.
                   </li>
                 </ul>
               </td>
@@ -1105,25 +1070,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Generally support with some minor
-                    exceptions - Drupal issue 3129257.
+                    <strong>Web</strong>: Site is built to be responsive for
+                    mobile devices.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: The docs are accessible up
-                    to 200%.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Generally good with some
-                    exceptions - Drupal issue 3164587.
+                    <strong>Electronic Docs</strong>: Site is built to be a
+                    simple reflection of a git repository using simple
+                    accessible MarkDown.
                   </li>
                 </ul>
               </td>
@@ -1139,20 +1100,13 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Not Applicable</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Authoring Tool</strong>: Text is generally styled
-                    with CSS in the authoring tool. Should images of text be
-                    uploaded by the user, they will be required to add
-                    alternative text.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.5">
@@ -1165,24 +1119,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: There is more than one way to locate a
-                    Web page within the CMS.
+                    <strong>Web</strong>: This software is all built around a
+                    process which makes it exempt from this SC.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: There is more than one way
-                    to locate a Web page within the CMS.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is more than one way
-                    to locate a Web page within the CMS.
+                    <strong>Electronic Docs</strong>: There is a built-in search
+                    engine.
                   </li>
                 </ul>
               </td>
@@ -1198,23 +1148,26 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
+                  <li><strong>Electronic Docs</strong>: Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Supports</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Generally there is very good support.
-                    Some heading levels may be missed in some unique contexts -
-                    Drupal issue 1768732. Better support could be provided for
-                    threaded comments - Drupal issue 2290043.
+                    <strong>Web</strong>: Most of the content is structured.
+                    Pages are missing an H1. Lists need a heading before them
+                    and this is missing in the navigational elements. There are
+                    also empty headings on some pages. Also see 3.3.2.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Generally good, but for
-                    dynamic elements like the Layout Builder need a plan for a
-                    dynamic heading structure - Drupal issue 3007978.
+                    <strong>Electronic Docs</strong>: Pages are properly
+                    structured in a nice hierarchy. Also see 3.3.2.
+                  </li>
+                  <li>
+                    <strong>Authoring Tool</strong>: Generated content begins at
+                    H2.
                   </li>
                 </ul>
               </td>
@@ -1230,22 +1183,21 @@
               <td>
                 <ul>
                   <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Electronic Docs</strong>: Partially Supports</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Focus elements are well established
-                    for the front-end. Further enhancements are being developed
-                    to make it more obvious for keyboard only users.
+                    <strong>Web</strong>: Generally focus is clear when tabbing
+                    through the site but focus is lost under some dialog boxes
+                    which can be confusing to the user.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: An IE specific bug where
-                    there are focus issues for authors and administrators in the
-                    Claro theme - Drupal issue 3048785.
+                    <strong>Electronic Docs</strong>: Previous/Next buttons do
+                    not indicate that they have focus.
                   </li>
                 </ul>
               </td>
@@ -1258,25 +1210,22 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Multilingual sites have language
-                    switchers with proper semantics. Unfotunately support is
-                    lacking for multi-lingual search 2992894 as well as both the
-                    Filesystem 3163915 &amp; Views components 2496223.
+                    <strong>Web</strong>: This software assumes that content
+                    will be provided in a single language. There is no support
+                    for strings in alternate languages.
                   </li>
                   <li>
-                    <strong>Authoring Tool</strong>: Drupal has good support for
-                    multilingual content and accessibility. To support the
-                    Language of Parts for authors, a button can be added to
-                    simplify the process of adding language specific phrases.
+                    <strong>Authoring Tool</strong>: All documentation is in the
+                    same language.
                   </li>
                 </ul>
               </td>
@@ -1293,22 +1242,18 @@
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Drupal&#x27;s menu structure allows
-                    for consistent navigation across the site.
+                    <strong>Web</strong>: Pages are very consistent and
+                    navigation is easy to infer.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Drupal&#x27;s menu
-                    structure allows for consistent navigation across the site.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Drupal&#x27;s menu
-                    structure allows for consistent navigation across the site.
+                    <strong>Electronic Docs</strong>: Pages are very consistent
+                    and navigation is easy to infer.
                   </li>
                 </ul>
               </td>
@@ -1325,22 +1270,18 @@
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Supports</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Components in Drupal that have the
-                    same functionality are identified consistently.
+                    <strong>Web</strong>: UX patterns are well defined and
+                    consistent.
                   </li>
                   <li>
-                    <strong>Electronic Docs</strong>: Components in Drupal that
-                    have the same functionality are identified consistently.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: Components in Drupal that
-                    have the same functionality are identified consistently.
+                    <strong>Electronic Docs</strong>: UX patterns are well
+                    defined and consistent.
                   </li>
                 </ul>
               </td>
@@ -1355,25 +1296,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Does Not Support</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The Inline Form Error Module is
-                    provided in Core and needs to be enabled to allow for this
-                    functionality.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: The Inline Form Error
-                    Module is provided in Core and needs to be enabled to allow
-                    for this functionality.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.3.4">
@@ -1386,28 +1316,14 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                  <li><strong>Electronic Docs</strong>: Supports</li>
+                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Partially Supports</li>
+                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: By default users can editing content
-                    which they own.
-                  </li>
-                  <li>
-                    <strong>Electronic Docs</strong>: Documentation could be
-                    improved.
-                  </li>
-                  <li>
-                    <strong>Authoring Tool</strong>: There is nothing to
-                    differentiate editing financial or legal data from any other
-                    data managed by Drupal.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
           </tbody>
@@ -1422,436 +1338,6 @@
           >
           Table 3: Success Criteria, Level AAA
         </h3>
-
-        Notes: Where possible the Drupal community strives to exceed AA
-        compliance.
-
-        <table class="usa-table">
-          <thead>
-            <tr>
-              <th>Criteria</th>
-              <th>Conformance Level</th>
-              <th>Remarks and Explanations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr id="1.2.6">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#media-equiv-sign">
-                  1.2.6 Sign Language (Prerecorded)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="1.2.7">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad">
-                  1.2.7 Extended Audio Description (Prerecorded)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="1.2.8">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#media-equiv-text-doc">
-                  1.2.8 Media Alternative (Prerecorded)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="1.2.9">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only"
-                >
-                  1.2.9 Audio-only (Live)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="1.4.6">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast7">
-                  1.4.6 Contrast (Enhanced)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: A front-end and back-end theme could
-                    be configured to allow this to comply.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="1.4.7">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio"
-                >
-                  1.4.7 Low or No Background Audio
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="1.4.8">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation"
-                >
-                  1.4.8 Visual Presentation
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Evaluated</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Stable Core themes leave much of the
-                    presentation of text to user agents, so aside from line
-                    spacing this generally works.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="1.4.9">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images"
-                >
-                  1.4.9 Images of Text (No Exception)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Text images are all supplied by the
-                    author.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.1.3">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs"
-                >
-                  2.1.3 Keyboard (No Exception)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The web front-end is not a barrier to
-                    keyboard only users.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.2.3">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions"
-                >
-                  2.2.3 No Timing
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There are no timeouts in Drupal Core
-                    that would affect people with disabilities.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.2.4">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#time-limits-postponed">
-                  2.2.4 Interruptions
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="2.2.5">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#time-limits-server-timeout"
-                >
-                  2.2.5 Re-authenticating
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="2.3.2">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#seizure-three-times">
-                  2.3.2 Three Flashes
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: There is no flashing content.</li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.4.8">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location"
-                >
-                  2.4.8 Location
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Breadcrumbs are available and sitemap
-                    modules can be added to provide additional means for
-                    navigation.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.4.9">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms-link"
-                >
-                  2.4.9 Link Purpose (Link Only)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: There is a mechanism to support
-                    automated links with semantic descriptive titles.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="2.4.10">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings"
-                >
-                  2.4.10 Section Headings
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Drupal provides heading elements at
-                    the beginning of each section of content.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr id="3.1.3">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#meaning-idioms">
-                  3.1.3 Unusual Words
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.1.4">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#meaning-located">
-                  3.1.4 Abbreviations
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.1.5">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#meaning-supplements">
-                  3.1.5 Reading Level
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.1.6">
-              <td>
-                <a href="https://www.w3.org/TR/WCAG20/#meaning-pronunciation">
-                  3.1.6 Pronunciation
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.2.5">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context"
-                >
-                  3.2.5 Change on Request
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.3.5">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#minimize-error-context-help"
-                >
-                  3.3.5 Help
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="3.3.6">
-              <td>
-                <a
-                  href="https://www.w3.org/TR/WCAG20/#minimize-error-reversible-all"
-                >
-                  3.3.6 Error Prevention (All)
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li><strong>Web</strong>: Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
 
         <h2 id="508">
           <a href="#508" aria-hidden="true" class="header-anchor">#</a>
@@ -1886,12 +1372,16 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>Testing has been done with JAWS, NVDA and VoiceOver.</li>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Form elements often do not have
+                    labels.
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -1908,7 +1398,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Testing has been done with browser zoom and ZoomText.</li>
+                  <li>Screen magnification users are supported.</li>
                 </ul>
               </td>
             </tr>
@@ -1920,12 +1410,16 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
-                  <li>The interface has been reviewed for use of color.</li>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Color alone is not used to convey
+                    information.
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -1982,14 +1476,15 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    Drupal&#x27;s interface does not restrict users with limited
-                    manipulation.
+                    Limitations for keyboard only users as per the remarks in
+                    the Success Criterion listed above. There are still a few
+                    keyboard traps.
                   </li>
                 </ul>
               </td>
@@ -2007,10 +1502,7 @@
               </td>
               <td>
                 <ul>
-                  <li>
-                    Drupal&#x27;s interface does not restrict users with limited
-                    reach or strength.
-                  </li>
+                  <li>No limits for strength.</li>
                 </ul>
               </td>
             </tr>
@@ -2037,7 +1529,7 @@
           Chapter 4: Hardware
         </h3>
 
-        Notes: Drupal is a web application. Hardware accessibility criteria is
+        Notes: GovReady is a web application. Hardware accessibility criteria is
         not applicable.
 
         <h3 id="software">
@@ -2045,7 +1537,7 @@
           Chapter 5: Software
         </h3>
 
-        Notes: Drupal is a web application. Software accessibility criteria is
+        Notes: GovReady is a web application. Software accessibility criteria is
         not applicable.
 
         <h3 id="support_documentation_and_services">
@@ -2058,7 +1550,7 @@
           Chapter 6: Support Documentation and Services
         </h3>
 
-        Notes: Drupal is a web application and all support documentation is
+        Notes: GovReady is a web application and all support documentation is
         delivered through the web. Additional documentation and services are not
         available.
 
@@ -2135,7 +1627,7 @@
           </tbody>
         </table>
 
-        <h2>Legal Disclaimer</h2>
+        <h2>Legal Disclaimer (GovReady PBC)</h2>
         The information herein is provided in good faith based on the analysis
         of the web application at the time of the review and does not represent
         a legally-binding claim. Please contact us to report any accessibility
