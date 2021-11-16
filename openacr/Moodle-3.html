@@ -4,14 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>NV Access Accessibility Conformance Report</title>
+    <title>Moodle Accessibility Conformance Report</title>
     <script
       type="text/javascript"
       charset="utf8"
       src="uswds/js/uswds-init.min.js"
     ></script>
     <link rel="stylesheet" href="uswds/css/uswds.min.css" />
-    <link rel="stylesheet" href="opat.css" />
+    <link rel="stylesheet" href="openacr.css" />
     <link rel="stylesheet" href="custom.css" />
   </head>
   <body>
@@ -22,7 +22,7 @@
     ></script>
     <main>
       <div class="grid-container">
-        <h1>NV Access Accessibility Conformance Report</h1>
+        <h1>Moodle Accessibility Conformance Report</h1>
 
         Based on VPAT® 2.4 Revised Section 508 Edition
         <h2 id="name-of-product-version">
@@ -34,13 +34,13 @@
           >
           Name of Product/Version
         </h2>
-        NVDA 2018.2.1
+        Moodle 3.1
 
         <h2 id="report-date">
           <a href="#report-date" aria-hidden="true" class="header-anchor">#</a>
           Report Date
         </h2>
-        9/3/2021
+        11/16/2021
 
         <h2 id="product-description">
           <a
@@ -51,11 +51,8 @@
           >
           Product Description
         </h2>
-        NVDA (NonVisual Desktop Access) is a free &#x27;screen reader&#x27;
-        which enables blind and vision impaired people to use computers. It
-        reads the text on the screen in a computerised voice. NVDA can also
-        convert the text into braille if the computer user owns a device called
-        a &#x27;braille display&#x27;.
+        The world&#x27;s most customisable and trusted open-source learning
+        management system.
 
         <h2 id="contact-information">
           <a
@@ -71,15 +68,16 @@
           Author Information
         </h3>
         <ul>
-          <li>Company: NV Access</li>
-          <li>Address: PO Box 4326, St Lucia South, QLD 4067, Australia</li>
+          <li>Name: Sander Bangma &amp; Jun Pataleta</li>
+          <li>Company: Moodle Pty Ltd</li>
+          <li>Address: PO Box 303, West Perth WA 6872, Australia</li>
           <li>
-            Email: <a href="mailto:info@nvaccess.org">info@nvaccess.org</a>
+            Email: <a href="mailto:support@moodle.com">support@moodle.com</a>
           </li>
 
           <li>
             Website:
-            <a href="https://www.nvaccess.org/">https://www.nvaccess.org/</a>
+            <a href="https://docs.moodle.org">https://docs.moodle.org</a>
           </li>
         </ul>
 
@@ -89,7 +87,19 @@
           >
           Evaluation Methods Used
         </h2>
-        Vendor product knowledge
+        This conformance report is based on the results of an accessibility
+        audit conducted by Web Key IT on a sample of 20 key pages. These pages
+        were selected by Web Key IT and agreed on by Moodle as representative of
+        the overall accessibility and functionality of the Moodle learning
+        management system (LMS). The evaluation was completed following the WCAG
+        Evaluation Methodology (WCAG-EM). The pages were audited manually and
+        cross-checked using a team of website evaluators to ensure that the
+        results and comments presented are valid and comprehensive. Separate and
+        external testing of these pages has been conducted by a group of trained
+        testers, all with disabilities. The following tools and applications
+        were used as part of the audit: Desktop browsers Google Chrome Internet
+        Explorer 11 Firefox Screen reader JAWS NVDA Other tools NU HTML
+        Validator
 
         <h2 id="applicable-standards-guidelines">
           <a
@@ -230,7 +240,15 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but it provides options for content
+                    creators to upload video/audio content with captions and
+                    subtitles. Video/audio transcripts can also be provided by
+                    content creators.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.2">
@@ -248,7 +266,13 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle provides options for content
+                    creators to attach captions to uploaded audio and video
+                    content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.3">
@@ -259,14 +283,19 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Content creators can upload audio and
+                    video content with audio descriptions or media alternatives.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.3.1">
@@ -319,14 +348,23 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not solely rely on sensory
+                    characteristics. However, it has question types that require
+                    users to drag and drop answers to questions in a quiz. A
+                    disclaimer is provided to warn quiz creators that drag and
+                    drop question types are not accessible for visually impaired
+                    users.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.4.1">
@@ -366,7 +404,14 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: User-uploaded audio and video content
+                    are set not auto-play by default although content creators
+                    have the option to enable or disable automatic playback of
+                    audio and video content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.1.1">
@@ -426,7 +471,13 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle&#x27;s rich text editor
+                    supports keyboard shortcuts. These shortcuts are only active
+                    when the user is in the editing area.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.2.2">
@@ -437,14 +488,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: This has not been evaluated because
+                    Moodle does not natively contain moving, blinking, and
+                    scrolling content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.3.1">
@@ -484,7 +541,15 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Skip links are supported in all main
+                    browsers, with the exception of Internet Explorer. With
+                    Microsoft ending its support for Internet Explorer, Moodle
+                    has ceased support for this browser from Moodle 3.10
+                    onwards.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.4.2">
@@ -711,14 +776,18 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not contain synchronised
+                    media with live audio content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.5">
@@ -731,14 +800,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload audio and
+                    video content with audio descriptions or media alternatives
+                    to these content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.4.3">
@@ -751,14 +827,22 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not rely solely on colour
+                    to convey visual information. Though there are some known
+                    colour contrast issues: - Dimmed text in tables with striped
+                    rows have insufficient contrast against rows with a grey
+                    background.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.4.4">
@@ -774,7 +858,6 @@
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
-                  <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -869,7 +952,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
                   <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
@@ -891,7 +974,6 @@
                 <ul>
                   <li><strong>Web</strong>: Supports</li>
                   <li><strong>Electronic Docs</strong>: Not Applicable</li>
-                  <li><strong>Software</strong>: Not Applicable</li>
                   <li><strong>Authoring Tool</strong>: Not Applicable</li>
                 </ul>
               </td>
@@ -989,14 +1071,15 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: Video has captions, description and
-                    transcript but not sign language.
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload
+                    prerecorded video content with sign language.
                   </li>
                 </ul>
               </td>
@@ -1009,15 +1092,16 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Does Not Support</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: All essential information is provided.
-                    Video is not paused for additional information such as
-                    description of images.
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can upload
+                    prerecorded multimedia content with extended audio
+                    descriptions.
                   </li>
                 </ul>
               </td>
@@ -1030,11 +1114,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle does not natively have audio
+                    and video content but content creators can provide media
+                    alternatives for their prerecorded multimedia content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.2.9">
@@ -1047,7 +1137,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1062,11 +1152,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Text colours in Moodle usually have a
+                    contrast ratio greater than 7:1 against their background.
+                    There are some texts with colours that meet the minimum
+                    contrast ratio of 4.5:1 for WCAG 2.1 Level AA but do not
+                    meet the enhanced colour contrast requirement of 7:1 for
+                    WCAG 2.1 Level AAA.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="1.4.7">
@@ -1079,7 +1178,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1096,16 +1195,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: Size and colour can not be adjusted
-                    internally.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="1.4.9">
@@ -1135,19 +1229,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: To have the output of some commands
-                    read as individual letters or phonetically, instead of read
-                    as sentences, some keystrokes can be pressed twice quickly
-                    (within a second). For instance, to spell the title bar
-                    instead of speak it as words.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.3">
@@ -1160,19 +1246,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: To have the output of some commands
-                    read as individual letters or phonetically, instead of read
-                    as sentences, some keystrokes can be pressed twice quickly
-                    (within a second). For instance, to spell the title bar
-                    instead of speak it as words.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.2.4">
@@ -1183,7 +1261,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1204,15 +1282,7 @@
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: The certified expert exams are time
-                    limited and so expire after the time elapses. The time for
-                    the exams are set taking into account that most users will
-                    be relying on NVDA and not necessarily as fast as a sighted
-                    user.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.3.2">
@@ -1223,7 +1293,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1240,21 +1310,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
-                  <li><strong>Software</strong>: Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: On the web site breadcrumbs are not
-                    provided.
-                  </li>
-                  <li>
-                    <strong>Software</strong>: In NVDA itself, there are no
-                    &#x27;breadcrumb trails&#x27; to follow.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="2.4.9">
@@ -1267,11 +1327,21 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Most links are uniquely identifiable
+                    by the link text only. However, some known areas where the
+                    link purpose cannot be determined by the link text only are:
+                    - Edit, delete, reply links in a list of posts within a
+                    forum discussion - The letter links for filtering a list of
+                    users by first name or surname do not make sense out of
+                    context.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="2.4.10">
@@ -1288,7 +1358,12 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Drupal provides heading elements at
+                    the beginning of each section of content.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.1.3">
@@ -1299,17 +1374,11 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>
-                    <strong>Web</strong>: A User Guide is freely available.
-                    Comprehensive training materials which walk the user through
-                    terms and functions are available.
-                  </li>
-                </ul>
+                <ul></ul>
               </td>
             </tr>
             <tr id="3.1.4">
@@ -1320,11 +1389,20 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Abbreviations in Moodle&#x27;s
+                    language strings such as KB, MB, PDF, Doc, etc., are not
+                    enclosed in &lt;abbr&gt; tags nor auto-linked to a
+                    dictionary definition. However, there is a mechanism that
+                    can enable auto-linking of user-generated content to a
+                    glossary.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.1.5">
@@ -1339,7 +1417,14 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Moodle&#x27;s language strings in its
+                    user interface are aimed to be descriptive and concise. It
+                    also has several language packs that can be downloaded and
+                    installed for sites that have children as the primary users.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.1.6">
@@ -1350,7 +1435,7 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Not Evaluated</li>
                 </ul>
               </td>
               <td>
@@ -1384,11 +1469,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Supports</li>
+                  <li><strong>Web</strong>: Partially Supports</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    <strong>Web</strong>: Context-sensitive help is provided for
+                    input elements in forms where the label may not be
+                    sufficient to explain the purpose of the input element.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="3.3.6">
@@ -1401,15 +1492,17 @@
               </td>
               <td>
                 <ul>
-                  <li><strong>Web</strong>: Partially Supports</li>
+                  <li><strong>Web</strong>: Supports</li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <strong>Web</strong>: For most input fields, data can be
-                    limited by type (eg one of a group of radio buttons). For
-                    text boxes no checking is done except for verifying that.
+                    <strong>Web</strong>: Form validation mechanisms are
+                    provided to allow users to correct their inputs when
+                    completing a form. Confirmation dialogues or pages are also
+                    present to prevent users from accidentally performing an
+                    irreversible action (e.g. data deletion, etc).
                   </li>
                 </ul>
               </td>
@@ -1431,6 +1524,8 @@
           Chapter 3: Functional Performance Criteria (FPC)
         </h3>
 
+        Notes: Not applicable.
+
         <table class="usa-table">
           <thead>
             <tr>
@@ -1448,11 +1543,17 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Form elements often do not have
+                    labels.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="302.2">
@@ -1467,7 +1568,9 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>Screen magnification users are supported.</li>
+                </ul>
               </td>
             </tr>
             <tr id="302.3">
@@ -1478,11 +1581,17 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    Partial compliance as per the remarks in the Success
+                    Criterion listed above. Color alone is not used to convey
+                    information.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="302.4">
@@ -1493,7 +1602,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1508,7 +1617,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1523,7 +1632,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1538,11 +1647,17 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Does Not Support</li>
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>
+                    Limitations for keyboard only users as per the remarks in
+                    the Success Criterion listed above. There are still a few
+                    keyboard traps.
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr id="302.8">
@@ -1557,7 +1672,9 @@
                 </ul>
               </td>
               <td>
-                <ul></ul>
+                <ul>
+                  <li>No limits for strength.</li>
+                </ul>
               </td>
             </tr>
             <tr id="302.9">
@@ -1568,7 +1685,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -1590,378 +1707,7 @@
           Chapter 5: Software
         </h3>
 
-        <table class="usa-table">
-          <thead>
-            <tr>
-              <th>Criteria</th>
-              <th>Conformance Level</th>
-              <th>Remarks and Explanations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr id="502.2.1">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.2.1">
-                  502.2.1 User Control of Accessibility Features
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.2.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.2.2">
-                  502.2.2 No Disruption of Accessibility Features
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.1">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.1">
-                  502.3.1 Object Information
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.2">
-                  502.3.2 Modification of Object Information
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.3">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.3">
-                  502.3.3 Row, Column, and Headers
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.4">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.4">
-                  502.3.4 Values
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.5">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.5">
-                  502.3.5 Modification of Values
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.6">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.6">
-                  502.3.6 Label Relationships
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.7">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.7">
-                  502.3.7 Hierarchical Relationships
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.8">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.8">
-                  502.3.8 Text
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.9">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.9">
-                  502.3.9 Modification of Text
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.10">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.10">
-                  502.3.10 List of Actions
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.11">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.11">
-                  502.3.11 Actions on Objects
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.12">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.12">
-                  502.3.12 Focus Cursor
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.13">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.13">
-                  502.3.13 Modification of Focus Cursor
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.3.14">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.3.14">
-                  502.3.14 Event Notification
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="502.4">
-              <td>
-                <a href="https://www.access-board.gov/ict/#502.4">
-                  502.4 Platform Accessibility Features
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="503.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#503.2">
-                  503.2 User Preferences
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="503.3">
-              <td>
-                <a href="https://www.access-board.gov/ict/#503.3">
-                  503.3 Alternative User Interfaces
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="503.4.1">
-              <td>
-                <a href="https://www.access-board.gov/ict/#503.4.1">
-                  503.4.1 Caption Controls
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="503.4.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#503.4.2">
-                  503.4.2 Audio Description Controls
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="504.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#504.2">
-                  504.2 Content Creation or Editing
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="504.2.1">
-              <td>
-                <a href="https://www.access-board.gov/ict/#504.2.1">
-                  504.2.1 Preservation of Information Provided for Accessibility
-                  in Format Conversion
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="504.2.2">
-              <td>
-                <a href="https://www.access-board.gov/ict/#504.2.2">
-                  504.2.2 PDF Export
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Not Applicable</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        Notes: Software accessibility criteria is not applicable.
 
         <h3 id="support_documentation_and_services">
           <a
@@ -1990,22 +1736,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
-                </ul>
-              </td>
-              <td>
-                <ul></ul>
-              </td>
-            </tr>
-            <tr id="602.3">
-              <td>
-                <a href="https://www.access-board.gov/ict/#602.3">
-                  602.3 Electronic Support Documentation
-                </a>
-              </td>
-              <td>
-                <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -2021,7 +1752,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -2036,7 +1767,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -2051,7 +1782,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Supports</li>
+                  <li>Not Applicable</li>
                 </ul>
               </td>
               <td>
@@ -2060,6 +1791,18 @@
             </tr>
           </tbody>
         </table>
+
+        <h2 id="legal-disclaimer">
+          <a href="#legal-disclaimer" aria-hidden="true" class="header-anchor"
+            >#</a
+          >
+          Legal Disclaimer
+        </h2>
+        The information herein is provided in good faith based on Moodle 3.10 at
+        the time of the accessibility audit and does not represent a legally
+        binding claim. Please [contact Moodle Pty
+        Ltd](https://moodle.com/contact/) to report any accessibility errors or
+        conformance claim errors for re-evaluation and correction, if necessary.
       </div>
     </main>
     <footer class="usa-footer usa-footer usa-footer--slim">
@@ -2072,12 +1815,9 @@
         <div class="grid-container">
           <div class="grid-row grid-gap">
             <div class="grid-col">
-              <a
-                href="https://github.com/GSA/open-product-accessibility-template"
-                >OPAT</a
-              >
-              is a format maintained by the <a href="https://gsa.gov/">GSA</a>.
-              The content is the responsibility of the author.
+              <a href="https://github.com/GSA/openacr">OpenACR</a> is a format
+              maintained by the <a href="https://gsa.gov/">GSA</a>. The content
+              is the responsibility of the author.
             </div>
             <div class="grid-col">
               This content is licensed under a

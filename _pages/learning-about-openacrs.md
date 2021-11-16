@@ -1,9 +1,9 @@
 ---
-title: Learning about OPATs
+title: Learning about OpenACRs
 layout: page
 sidenav: true
 ---
 
 # **{{page.title}}**
 
-OPATs are
+OpenACRs are ...

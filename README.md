@@ -6,9 +6,9 @@
   https://circleci.com/
 -->
 
-# OPAT Website
+# OpenACR Website
 
-This is the website for the [Open Product Accessibility Template (OPAT)](https://github.com/GSA/open-product-accessibility-template) Accessibility Conformance Report (ACR). The goal of this site is to host a description fo the format and instructions on how to use it. 
+This is the website for the [OpenACR)](https://github.com/GSA/openacr) (previously known as Open Product Accessibility Template or OPAT). OpenACR is an machine-readable Accessibility Conformance Report (ACR). The goal of this site is to host a description fo the format and instructions on how to use it. 
 
 The site is built with Jekyll using the U.S. Web Design System (USWDS) framework. It is hosted on Federalist, but using this GitHub repository you can install it locally. We have included more information from the default [Federalist implementation of the USWDS](https://github.com/18F/federalist-uswds-jekyll) to help get folks started. 
 
@@ -53,7 +53,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 ### Getting Started
 
 #### With `npx` (requires node)
-    $ npx degit https://github.com/GSA/opat-website#main <destination-folder>
+    $ npx degit https://github.com/GSA/openacr-website#main <destination-folder>
     $ cd <destination-folder>
 
 #### Push to your Github repository
@@ -69,8 +69,8 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 ```
 
 ### Installation for development
-    $ git clone https://github.com/GSA/opat-website.git
-    $ cd opat-website
+    $ git clone https://github.com/GSA/openacr-website.git
+    $ cd openacr-website
 
 ### Running the application
 
