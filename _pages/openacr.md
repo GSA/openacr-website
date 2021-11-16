@@ -1,11 +1,11 @@
 ---
-title: OpenACR Accessibility Conformance Reports
+title: Open Accessibility Conformance Reports
 layout: page
 sidenav: false
-permalink: /opats/
+permalink: /openacrs/
 ---
 
-# OpenACR Accessibility Conformance Reports
+# Open Accessibility Conformance Reports
 
 To support the needs of customers and staff with disabilities, organizations need to know what barriers their Information and communications technology (ICT) has. One of the key goals OPAT was to make listing ACR's easier. It should be simple for everyone involved in procurement within an organization to view the available accessibility documentation.
 

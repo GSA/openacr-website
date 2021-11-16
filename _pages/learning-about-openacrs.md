@@ -6,4 +6,4 @@ sidenav: true
 
 # **{{page.title}}**
 
-OpenACRs are
+OpenACRs are ...

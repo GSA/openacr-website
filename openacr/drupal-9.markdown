@@ -177,18 +177,18 @@ The information herein is provided in good faith based on the analysis of the we
 
 ## Repository
 
-https://github.com/GSA/open-product-accessibility-template/blob/main/opat/drupal-9.yaml
+https://github.com/GSA/openacr/blob/main/openacr/drupal-9.yaml
 
 ## Feedback
 
 https://www.drupal.org/project/issues/drupal
 
-## Related OPATs
+## Related OpenACRs
 
 - https://ckeditor.com/docs/ckeditor4/latest/guide/dev_section508.html (secondary)
 
 ## Copyright
 
-[OPAT](https://github.com/GSA/open-product-accessibility-template) is a format maintained by the [GSA](https://gsa.gov/). The content is the responsibility of the author.
+[OpenACR](https://github.com/GSA/openacr) is a format maintained by the [GSA](https://gsa.gov/). The content is the responsibility of the author.
 
 This content is licensed under a [GNU General Public License v2.0 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html).

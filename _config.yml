@@ -18,10 +18,10 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: Open Product Accessibility Template (OPAT)
+title: Open Accessibility Conformance Reports (OpenACR)
 email: opat@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Open Product Accessibility Template (OPAT) is a digital native Accessibility Compliance Report (ACR). The initial development is based on Section 508 requirements. The main goal is to be able to compare the accessibility claims of digital products and services. A structured, self-validated, machine-readable documentation will provide for this.
+  OpenACR is a digital native Accessibility Compliance Report (ACR). The initial development is based on Section 508 requirements. The main goal is to be able to compare the accessibility claims of digital products and services. A structured, self-validated, machine-readable documentation will provide for this.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. https://example.com.
   # Required to support the jekyll-sitemap plugin below.
@@ -78,10 +78,10 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: OPATs
-    url: /opats/
-  - name: Learning about OPATs
-    url: /learning-about-opats/
+  - name: OpenACRs
+    url: /openacrs/
+  - name: Learning about OpenACRs
+    url: /learning-about-openacrs/
 
 secondary_navigation:
   - name: "Is this just a VPAT?"
