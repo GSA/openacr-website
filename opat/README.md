@@ -1,3 +1,3 @@
-Current list of OPATs.
+Current list of OpenACRs.
 
-See also [OPAT section in CLI documentation](https://github.com/GSA/open-product-accessibility-template/blob/main/docs/CLI.md#opats).
+See also [OpenACR section in CLI documentation](https://github.com/GSA/openacr/blob/main/docs/CLI.md#openacrs).
