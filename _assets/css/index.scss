@@ -6,6 +6,8 @@
 // Example - Override the background image in the hero component using SASS:
 // $theme-hero-image: asset_path("whatever-the-default-is.png");
 
+$theme-hero-image: asset_path("mra11y-hero.png");
+
 @import "uswds";
 
 // Example - Override the background image in the hero component using CSS:
@@ -18,8 +20,6 @@
 /*
   Add your SASS/CSS here
 */
-
-$theme-hero-image: asset_path("mra11y-hero.png");
 
 // default mode hide banner
 .usa-banner__content {
