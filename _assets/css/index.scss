@@ -19,6 +19,8 @@
   Add your SASS/CSS here
 */
 
+$theme-hero-image: asset_path("mra11y-hero.png");
+
 // default mode hide banner
 .usa-banner__content {
   display: hidden;
