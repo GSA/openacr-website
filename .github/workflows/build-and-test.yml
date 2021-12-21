@@ -33,7 +33,7 @@ jobs:
           node-version: '14'
 
       - name: Install NPM dependencies.
-        run: npm install
+        run: npm ci
 
       - name: Build and start up jekyll server.
         run: npm run build && npm run start-detached
