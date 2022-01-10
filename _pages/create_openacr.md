@@ -5,7 +5,7 @@ sidenav: true
 permalink: /create/
 ---
 
-# How to create an OpenACR Reports
+# **{{page.title}}**
 
 ## What is an ACR?
 
