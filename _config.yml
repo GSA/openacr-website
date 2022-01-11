@@ -80,8 +80,8 @@ primary_navigation:
     url: /
   - name: OpenACRs
     url: /openacrs/
-  - name: Learning about OpenACRs
-    url: /learning-about-openacrs/
+  - name: About OpenACRs
+    url: /about/
 
 secondary_navigation:
   - name: "Is this just a VPAT?"
