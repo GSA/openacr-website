@@ -1,14 +1,15 @@
 ---
-title: Learning about OpenACRs
+title: About OpenACRs
 layout: page
 sidenav: true
+permalink: /about/
 ---
 
 # **{{page.title}}**
 
 ## Context
 
-Many agencies face challenges in delivering accessible services to people with disabilities. Software vendors are often asked to submit accessibility conformance reports (ACR) for their offerings. Many federal contracts require ACRs, but they are also used globally in government, education and in business to business contracts. These ACRs document conformance of these products and services to Section 508 requirements. These claims are generally provided in a MS Word or PDF format both of which are hard to use when doing comparisons. 
+Many agencies face challenges in delivering accessible services to people with disabilities. Software vendors are often asked to submit accessibility conformance reports (ACR) for their offerings. Many federal contracts require ACRs, but they are also used globally in government, education and in business to business contracts. These ACRs document conformance of these products and services to Section 508 requirements. These claims are generally provided in a MS Word or PDF format both of which are hard to use when doing comparisons.
 
 These ACRs represent a static snapshot of accessibility when written. A modern ACR would show continuous adherence to accessibility requirements and be validated to see it matches a baseline format.
 
@@ -44,7 +45,7 @@ You can find several [example OpenACR YAML files](https://github.com/GSA/openacr
 
 ## OpenACR Editor
 
-Editors can write their results in YAML, but you can also use the [OpenACR editor](https://gsa.github.io/openacr-editor/). What matters is that the resulting document validates against the [JSON Schema](https://github.com/GSA/openacr/tree/main/schema) that we have published in the central [GitHub repository](https://github.com/GSA/openacr/). 
+Editors can write their results in YAML, but you can also use the [OpenACR editor](https://gsa.github.io/openacr-editor/). What matters is that the resulting document validates against the [JSON Schema](https://github.com/GSA/openacr/tree/main/schema) that we have published in the central [GitHub repository](https://github.com/GSA/openacr/).
 
 This OpenACR editor is a work-in-progress, and we [invite feedback](https://github.com/GSA/openacr/issues). It is built on the [WAI's ATAG Report Tool](https://wai-atag-report-tool.netlify.app/). This allowed us to align with initiatives from the [W3C WAI](https://www.w3.org/WAI/), but also ensure that the tool would be easy to extend in the future.
 
@@ -53,13 +54,15 @@ This accessible JavaScript editor allows an author to either build an OpenACR fi
 This is a stand-alone JavaScript application. Any changes are stored exclusively in your browser. You will need to save the YAML file to your computer in order to access this information in the future. We recommend saving it into a git repository so that changes can be effectively tracked over time.
 
 ## Also see
- - References
- - How to guides to fill in an OpenACR
- - Roadmap for future development
- - Project vision
+
+- References
+- How to guides to fill in an OpenACR
+- Roadmap for future development
+- Project vision
 
 ## More information is provided for the following roles
- - Procurement Teams
- - Agency Project Leads / Requiring Officials
- - Vendors
- - Accessibility Professionals and ACR Authors
+
+- Procurement Teams
+- Agency Project Leads / Requiring Officials
+- Vendors
+- Accessibility Professionals and ACR Authors
