@@ -1,7 +1,7 @@
 ---
 title: How to create an OpenACR Reports
 layout: page
-sidenav: tue
+sidenav: true
 permalink: /create/
 ---
 
