@@ -17,7 +17,7 @@ Milestones documented, project description written, and initial OpenACR schema a
 - Define outreach goals and targets. This is a GSA project, but if successful it will have implications far outside of the GSA. The team will need to raise awareness about OpenACR.
 - The OpenACR document will be written in YAML, but this isn't an easily readable format. The YAML file must be [converted to both Markdown and a themed HTML output](https://github.com/GSA/openacr/tree/main/openacr).
 - Outreach and engagement will need to be done with stakeholders. Input will be needed for all roles of the procurement process.
-- Display a web directory listing of available OpenACRs. Users should be able to view a [list of OpenACR files](https://federalist-02947dd8-86df-467a-b2af-4c5b94c5b1f0.app.cloud.gov/site/gsa/openacr-website/openacr/) as long as they are in a YAML format. These will need to be displayed in HTML in a format similar to the current VPAT.
+- Display a web directory listing of available OpenACRs. Users should be able to view a [list of OpenACR files]({{ site.baseurl }}/openacr/) as long as they are in a YAML format. These will need to be displayed in HTML in a format similar to the current VPAT.
 - OpenACR Editor - Editors need to be able to create, load, update and save OpenACR documents in a YAML format.
 
 ## What we plan to do
