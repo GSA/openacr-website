@@ -82,6 +82,17 @@ primary_navigation:
     url: /openacrs/
   - name: About OpenACRs
     url: /about/
+    children:
+      - name: Learning about OpenACRs
+        url: /about/
+      - name: How to create an OpenACR Report
+        url: /create/
+      - name: Frequently Asked Questions (FAQ)s
+        url: /faq/
+      - name: Roadmap
+        url: /roadmap/
+      - name: Resources
+        url: /resources/
 
 secondary_navigation:
   - name: "Is this just a VPAT?"
