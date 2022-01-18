@@ -13,7 +13,7 @@ Many agencies face challenges in delivering accessible services to people with d
 
 These ACRs represent a static snapshot of accessibility when written. A modern ACR would show continuous adherence to accessibility requirements and be validated to see it matches a baseline format.
 
-Responsible agencies test vendor conformance claims. Agency findings should be easily shared with vendors. Finding and sharing up-to-date data should be easy.
+Having an ACR does not mean that a product or service is accessible. ACR claims may also not be accurate or comprehensive. Responsible agencies test vendor conformance claims. Agency findings should be easily shared with vendors. Finding and sharing up-to-date data should be easy.
 
 ## Vision
 
@@ -52,17 +52,3 @@ This OpenACR editor is a work-in-progress, and we [invite feedback](https://gith
 This accessible JavaScript editor allows an author to either build an OpenACR file from scratch, or import one that has already been written. From this you can save OpenACR in both a YAML & HTML format. You can experiment with editing files by downloading the [Drupal YAML file](https://github.com/GSA/openacr/blob/main/openacr/drupal-9.yaml) and then loading it into the editor.
 
 This is a stand-alone JavaScript application. Any changes are stored exclusively in your browser. You will need to save the YAML file to your computer in order to access this information in the future. We recommend saving it into a git repository so that changes can be effectively tracked over time.
-
-## Also see
-
-- References
-- How to guides to fill in an OpenACR
-- Roadmap for future development
-- Project vision
-
-## More information is provided for the following roles
-
-- Procurement Teams
-- Agency Project Leads / Requiring Officials
-- Vendors
-- Accessibility Professionals and ACR Authors
