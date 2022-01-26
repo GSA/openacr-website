@@ -84,10 +84,10 @@ primary_navigation:
     url: /about/
 
 secondary_navigation:
-  - name: "Is this just a VPAT?"
-    url: "#main-content"
+  - name: "Is this just an OpenACR?"
+    url: "/vpat/"
   - name: "What is an ACR?"
-    url: "#main-content"
+    url: "/acr/"
 
 # Search.gov configuration
 #
