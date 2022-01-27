@@ -19,7 +19,7 @@
 ##########################################################################################
 
 title: Open Accessibility Conformance Reports (OpenACR)
-email: opat@gsa.gov
+email: openacr@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
   OpenACR is a digital native Accessibility Compliance Report (ACR). The initial development is based on Section 508 requirements. The main goal is to be able to compare the accessibility claims of digital products and services. A structured, self-validated, machine-readable documentation will provide for this.
 baseurl: "" # the subpath of your site, e.g. /blog
