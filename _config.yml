@@ -97,11 +97,11 @@ primary_navigation:
       - name: Procurement
         url: /procurement/
       - name: Vendors
-        url: /vendoor/
+        url: /vendor/
       - name: Accessibility SME
         url: /accessibility-expert/
-      - name: Other
-        url: /other/
+      - name: Others
+        url: /others/
   - name: Examples
     url: /openacrs/
 
