@@ -78,8 +78,6 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Samples
-    url: /openacrs/
   - name: About
     url: /about/
     children:
@@ -104,6 +102,8 @@ primary_navigation:
         url: /accessibility-expert/
       - name: Other
         url: /other/
+  - name: Exampless
+    url: /openacrs/
 
 secondary_navigation:
   - name: "Is this just a VPAT?"
