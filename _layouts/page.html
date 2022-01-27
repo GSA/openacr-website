@@ -12,8 +12,9 @@ This template is for a single page that does not have a date associated with it.
       {% if page.sidenav == true %}
       {% include sidenav.html %}
       {% endif %}
-      <main>
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+
+      <main class="tablet:grid-col-9">
+        <div class="usa-layout-docs__main usa-prose">
             {{ content }}
         </div>
       </main>

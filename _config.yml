@@ -80,7 +80,7 @@ primary_navigation:
     url: /
   - name: Samples
     url: /openacrs/
- - name: About
+  - name: About
     url: /about/
     children:
       - name: Learning about OpenACRs

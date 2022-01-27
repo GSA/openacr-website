@@ -11,13 +11,13 @@ permalink: /roadmap/
 
 Milestones documented, project description written, and initial OpenACR schema and catalog drafts published.
 
-- Create the [highly structured, machine-readable document format](/catalog/2.4-edition-wcag-2.0-508-en.yaml). YAML was chosen as the markup language. Refine the YAML OpenACR schema to support the requirements of the current Section 508 version of VPAT (ie. the example with [Drupal 9](/openacr/drupal-9.yaml)). |
-- Ensure that YAML documents conform to a defined [structure](/schema/OpenACR-0.1.0.json) and [catalog](/schema/openacr-catalog-0.1.0.json). Build in validation code for the OpenACR schema so that key elements are evaluated.
-- [Build testing into the development](/tests) so that errors are caught early in the process. Continuous integration should be used to validate the code and process.
+- Create the [highly structured, machine-readable document format](https://github.com/GSA/openacr/tree/main/catalog). YAML was chosen as the markup language. Refine the YAML OpenACR schema to support the requirements of the current Section 508 version of VPAT (ie. the example with [Drupal 9](https://github.com/GSA/openacr/tree/main/catalog)).
+- Ensure that YAML documents conform to a defined [structure](https://github.com/GSA/openacr/tree/main/schema) and [catalog](https://github.com/GSA/openacr/tree/main/catalog). Build in validation code for the OpenACR schema so that key elements are evaluated.
+- [Build testing into the development](https://github.com/GSA/openacr/tree/main/tests) so that errors are caught early in the process. Continuous integration should be used to validate the code and process.
 - Define outreach goals and targets. This is a GSA project, but if successful it will have implications far outside of the GSA. The team will need to raise awareness about OpenACR.
-- The OpenACR document will be written in YAML, but this isn't an easily readable format. The YAML file must be [converted to both Markdown and a themed HTML output](/openacr).
+- The OpenACR document will be written in YAML, but this isn't an easily readable format. The YAML file must be [converted to both Markdown and a themed HTML output](https://github.com/GSA/openacr/tree/main/openacr).
 - Outreach and engagement will need to be done with stakeholders. Input will be needed for all roles of the procurement process.
-- Display a web directory listing of available OpenACRs. Users should be able to view a [list of OpenACR files](https://federalist-02947dd8-86df-467a-b2af-4c5b94c5b1f0.app.cloud.gov/site/gsa/openacr-website/openacr/) as long as they are in a YAML format. These will need to be displayed in HTML in a format similar to the current VPAT.
+- Display a web directory listing of available OpenACRs. Users should be able to view a [list of OpenACR files]({{ site.baseurl }}/openacr/) as long as they are in a YAML format. These will need to be displayed in HTML in a format similar to the current VPAT.
 - OpenACR Editor - Editors need to be able to create, load, update and save OpenACR documents in a YAML format.
 
 ## What we plan to do

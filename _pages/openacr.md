@@ -11,4 +11,4 @@ To support the needs of customers and staff with disabilities, organizations nee
 
 Having a central location to store and share ACRs within an organization should reduce the overhead involved in simply collecting these reports from vendors. If agencies create their own ACRs for ICT that they use, these could be included in this directory as well.
 
-The existing ACR collection can be found in the following [data table](../openacr).
+The existing ACR collection can be found in the following [data table]({{ site.baseurl }}/openacr/).

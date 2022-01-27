@@ -3,23 +3,24 @@ The sidenav is not loaded by default on the main pages. To include this navigati
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
 
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+<aside class="tablet:grid-col-3 padding-bottom-4 display-none tablet:display-block">
   <nav>
+    {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="/about/">Learning about OpenACRs</a>
+        <a class="{% if basedir == 'about' %} usa-current{% endif %}" href="{{ site.baseurl }}/about/">Learning about OpenACRs</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="/create/">How to create an OpenACR Reports</a>
+        <a class="{% if basedir == 'create' %} usa-current{% endif %}"href="{{ site.baseurl }}/create/">How to create an OpenACR Reports</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="/faq/">Frequently Asked Questions (FAQ)s</a>
+        <a class="{% if basedir == 'faq' %} usa-current{% endif %}"href="{{ site.baseurl }}/faq/">Frequently Asked Questions (FAQs)</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="/roadmap/">Roadmap</a>
+        <a class="{% if basedir == 'roadmap' %} usa-current{% endif %}"href="{{ site.baseurl }}/roadmap/">Roadmap</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="/resources/">Resources</a>
+        <a class="{% if basedir == 'resources' %} usa-current{% endif %}"href="{{ site.baseurl }}/resources/">Resources</a>
       </li>
 
     </ul>

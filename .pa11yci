@@ -1,7 +1,12 @@
 {
   "defaults": {
-    "concurrency": 4,
+    "concurrency": 1,
     "standard": "WCAG2AA",
-    "runners": ["axe"]
+    "runners": ["axe"],
+    "ignore": [
+      "color-contrast",
+      "frame-tested"
+    ],
+    "screenCapture": "screenshot.png"
   }
 }
