@@ -32,14 +32,7 @@ links: footer
 big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
-heading: CivicActions Accessibility
-
-# Configuration for agency logo(s) (shown side by side).
-# If the logo is external add external: true
-# logos:
-#  - src: 
-#    alt: CivicActions Accessibility
-#    external: true
+heading: OpenACR
 
 # Configuration for footer contact links
 contact:
@@ -47,30 +40,14 @@ contact:
   # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: GitHub
-      href: https://github.com/civicactions/accessibility
+      href: https://github.com/GSA/
       external: true
       type: github
-    - text: Facebook
-      href: https://facebook.com/civicactions
-      external: true
-      type: facebook
-    - text: Twitter
-      href: https://twitter.com/civicactions
-      external: true
-      type: twitter
-    - text: LinkedIn
-      href: https://www.linkedin.com/company/civicactions/
-      external: true
-      type: linkedin
     - text: RSS
-      href: https://accessibility.civicactions.com/feed.xml
+      href: /feed.xml
       external: true
       type: rss
-
-#     - text: YouTube
-#       href: https://youtube.com
-#       external: true
-#       type: youtube
+      
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
@@ -80,5 +57,5 @@ contact:
   contact_links:
 #     - text: (800) CALL-GOVT
 #       href: tel:1-800-555-5555
-    - text: accessibility@civicactions.com
-      href: mailto:accessibility@civicactions.com
+    - text: openacr@gsa.gov
+      href: mailto:text: openacr@gsa.gov
