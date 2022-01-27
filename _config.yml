@@ -78,10 +78,32 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: OpenACRs
+  - name: Samples
     url: /openacrs/
-  - name: About OpenACRs
+ - name: About
     url: /about/
+    children:
+      - name: Learning about OpenACRs
+        url: /about/
+      - name: How to create an OpenACR Report
+        url: /create/
+      - name: Frequently Asked Questions (FAQ)s
+        url: /faq/
+      - name: Roadmap
+        url: /roadmap/
+      - name: Resources
+        url: /resources/
+ - name: Roles
+    url: /roles/
+    children:
+      - name: Procurement
+        url: /procurement/
+      - name: Vendors
+        url: /vendoor/
+      - name: Accessibility SME
+        url: /accessibility-expert/
+      - name: Other
+        url: /other/
 
 secondary_navigation:
   - name: "Is this just an OpenACR?"
