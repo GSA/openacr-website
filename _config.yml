@@ -97,7 +97,7 @@ primary_navigation:
       - name: Procurement
         url: /procurement/
       - name: Vendors
-        url: /vendor/
+        url: /vendors/
       - name: Accessibility SME
         url: /accessibility-expert/
       - name: Others
