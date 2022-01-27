@@ -20,7 +20,6 @@ permalink: /resources/
 - [Playbooks](https://www.section508.gov/tools/playbooks/)
 - [IT Accessibility Laws and Policies](https://www.section508.gov/manage/laws-and-policies) - Section508.Gov
 
-
 ## USA government links
 - [An Introduction to Accessibility](https://digital.gov/resources/introduction-accessibility/) - Digital.gov
 - [Disability Impacts All of Us Infographic](https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html) - Centers for Disease Control and Prevention
