@@ -102,7 +102,7 @@ primary_navigation:
         url: /accessibility-expert/
       - name: Other
         url: /other/
-  - name: Exampless
+  - name: Examples
     url: /openacrs/
 
 secondary_navigation:
