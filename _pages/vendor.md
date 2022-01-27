@@ -29,4 +29,4 @@ You will want to have the language for this reviewed by sales and possibly legal
 
 ## Accessibility Subject Matter Expert (SME)
 
-The role of the [Accessibility SME](/accessibility-expert) is defined on its own page.
+The role of the [Accessibility SME]({{ site.baseurl }}/accessibility-expert) is defined on its own page.
