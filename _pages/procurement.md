@@ -40,4 +40,4 @@ A COR will want to look at the vendor's claims with the ACR that they submitted 
 
 ## Accessibility Subject Matter Expert (SME)
 
-The role of the [Accessibility SME](/accessibility-expert) is defined on its own page.
+The role of the [Accessibility SME]({{ site.baseurl }}/accessibility-expert) is defined on its own page.
