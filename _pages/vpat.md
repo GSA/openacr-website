@@ -1,5 +1,5 @@
 ---
-title: Voluntary Product Accessibility Template (VPAT)
+title: Voluntary Product Accessibility Template (VPAT®)
 layout: page
 sidenav: false
 permalink: /vpat/
