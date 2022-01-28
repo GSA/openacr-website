@@ -35,4 +35,3 @@ permalink: /resources/
 - [Disability and Health." World Health Organization](https://www.who.int/news-room/fact-sheets/detail/disability-and-health) - World Health Organization
 - [PEAT: Buy IT!—Your Guide for Purchasing Accessible Technology](https://www.peatworks.org/digital-accessibility-toolkits/buy-it/)
 - [Disability:INclusive Workplaces: Accessible Technology Procurement Toolkit](https://private.disabilityin.org/procurementtoolkit/)
-
