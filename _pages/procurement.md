@@ -19,7 +19,7 @@ The requestor is usually the internal agency lead for the project. They will lik
 
 The goal of the PCO is to document that accessibility has been properly considred for accessibility. This emeans either evaluating conformance claims and choosing the technology that reasonably claims to be accessible or if that is an option, choosing one that meets the [best meets exceptions](https://www.section508.gov/buy/determine-ict-exceptions/#7) to avoid bid protests.
 
-PCOs have historically looked for or asked vendors for VPATs. The process is similar with OpenACRs, however an OpenACR can list:
+PCOs have historically looked for or asked vendors for VPAT® reports. The process is similar with OpenACRs, however an OpenACR can list:
 
 - a public Git repository, which will make it easier to update
 - additional people who are responsible for maintaining the reporting
