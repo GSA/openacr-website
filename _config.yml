@@ -100,8 +100,8 @@ primary_navigation:
         url: /vendors/
       - name: Accessibility SME
         url: /accessibility-expert/
-      - name: Others
-        url: /others/
+      - name: Advocates
+        url: /advocates/
   - name: Examples
     url: /openacrs/
 
