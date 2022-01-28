@@ -29,4 +29,4 @@ More commonly though, Accessibility SMEs will be reviewing the OpenACR documents
 
 ## Agency or Contractor
 
-There are many digital agencices that develop VPATs and can also develop OpenACR reports. There is no need to use the [OpenACR Editor](https://gsa.github.io/openacr-editor/) however, valid OpenACRs must validate against the schema as decribed in the [technical documentation](https://github.com/GSA/openacr/tree/main/docs).
+There are many digital agencices that develop VPAT® reports and can also develop OpenACR reports. There is no need to use the [OpenACR Editor](https://gsa.github.io/openacr-editor/) however, valid OpenACRs must validate against the schema as decribed in the [technical documentation](https://github.com/GSA/openacr/tree/main/docs).
