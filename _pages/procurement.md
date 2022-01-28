@@ -7,7 +7,7 @@ permalink: /procurement/
 
 # **{{page.title}}**
 
-Different organizations may have different definitions and termonilogy, but for larger organizations there are distinct roles involved in procurement. More information on various roles is available on [Acquisition.gov](https://www.acquisition.gov/browse/index/gsam).
+Different organizations may have different definitions and termonilogy, but for larger organizations there are distinct roles involved in procurement. More information on various roles is available on [Acquisition.gov](https://www.acquisition.gov/).
 
 ## Requiring officials (requestor)
 
