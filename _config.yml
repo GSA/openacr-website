@@ -106,7 +106,7 @@ primary_navigation:
     url: /openacrs/
 
 secondary_navigation:
-  - name: "Is this just a VPAT?"
+  - name: "Is this just a VPAT®?"
     url: "/vpat/"
   - name: "What is an ACR?"
     url: "/acr/"
