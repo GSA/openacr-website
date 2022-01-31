@@ -100,7 +100,7 @@ Complete Chapter 6: Support Documentation and Services. If your product cannot b
 
 The first column "Criteria" of the Revised Section 508 tables lists the Section 508 Technical Standards. By clicking on the links provided in this column, you may access more information about the standards on the U.S. Access Board website.
 
-# Step 6: Final checklist to make sure your OpenACR is complete
+### Step 6: Final checklist to make sure your OpenACR is complete
 
 ☐ Are you using the correct version? Make sure you are using the the latest version of OpenACR to build your ACR! If you have an older OpenACR file (ending with a .yaml extension) you should be able to load it into the editor to verify that it still validates.
 
@@ -117,3 +117,6 @@ The first column "Criteria" of the Revised Section 508 tables lists the Section 
 ☐ Are you using the correct phrases to describe conformance levels? Check to see if all phrases under conformance level match one of the following: Supports, Partially Supports, Does Not Support, Not Applicable.
 
 ☐ Did you complete the remarks column? If the conformance level is either "Partially Supports" or "Does Not Support," then be sure that you explain further in the respective remarks column.
+
+
+_**Note:** This content was adapted from NASA's 2021 guide, [Demistifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._
