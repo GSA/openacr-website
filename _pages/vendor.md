@@ -21,7 +21,7 @@ The HTML version of the OpenACR report is the easiest to read. If you want to hi
 
 Accessibility perfection is not expected as part of Section 508\. Standards and environments change over time, particularly with devices connected to the internet. OpenACRs can be used to demonstrate that your products are getting more accessible over time. This does require a committment to making sure that accessibility is maintained, and regular reviews to see that they are meeting the current best practice.
 
-## Developers/Designers
+## Developers and designers
 
 Ideally the issue tracker will be organzied so that accessibility barriers align with the Section 508 requirements. This should allow for draft summaries to be easily pulled from the issue queue to ensure that known barriers are identified in the OpenACR. It is also important to update the OpenACR when issues have been fixed in a given release.
 
@@ -30,3 +30,7 @@ You will want to have the language for this reviewed by sales and possibly legal
 ## Accessibility Subject Matter Expert (SME)
 
 The role of the [Accessibility SME]({{ site.baseurl }}/accessibility-expert) is defined on its own page.
+
+## Vendors also buy software
+
+Many vendors are also are concerned with [accessible procurement]({{ site.baseurl }}/procurement) because they also need to buy accessible software.
