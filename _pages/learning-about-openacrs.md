@@ -53,3 +53,4 @@ This accessible JavaScript editor allows an author to either build an OpenACR fi
 
 This is a stand-alone JavaScript application. Any changes are stored exclusively in your browser. You will need to save the YAML file to your computer in order to access this information in the future. We recommend saving it into a git repository so that changes can be effectively tracked over time.
 
+_**Note:** This content was adapted from NASA's 2021 guide, [Demistifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._
