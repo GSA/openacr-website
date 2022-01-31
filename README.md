@@ -8,7 +8,9 @@
 
 # OpenACR Website
 
-This is the website for the [OpenACR)](https://github.com/GSA/openacr) (previously known as Open Product Accessibility Template or OPAT). OpenACR is an machine-readable Accessibility Conformance Report (ACR). The goal of this site is to host a description fo the format and instructions on how to use it. 
+This is the website for the [OpenACR](https://github.com/GSA/openacr) (previously known as Open Product Accessibility Template or OPAT). OpenACR is an machine-readable Accessibility Conformance Report (ACR). The goal of this site is to host a description fo the format and instructions on how to use it. 
+
+A [preview of the site](https://federalist-6d3494a6-5b03-42fa-82f2-57f3bbb203af.app.cloud.gov/site/gsa/openacr-website/) is now available.
 
 The site is built with Jekyll using the U.S. Web Design System (USWDS) framework. It is hosted on Federalist, but using this GitHub repository you can install it locally. We have included more information from the default [Federalist implementation of the USWDS](https://github.com/18F/federalist-uswds-jekyll) to help get folks started. 
 
