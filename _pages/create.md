@@ -100,7 +100,7 @@ Complete Chapter 6: Support Documentation and Services. If your product cannot b
 
 The first column "Criteria" of the Revised Section 508 tables lists the Section 508 Technical Standards. By clicking on the links provided in this column, you may access more information about the standards on the U.S. Access Board website.
 
-# Step 6: Final checklist to make sure your OpenACR is complete
+### Step 6: Final checklist to make sure your OpenACR is complete
 
 ☐ Are you using the correct version? Make sure you are using the the latest version of OpenACR to build your ACR! If you have an older OpenACR file (ending with a .yaml extension) you should be able to load it into the editor to verify that it still validates.
 
