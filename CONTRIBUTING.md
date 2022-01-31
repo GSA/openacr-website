@@ -96,7 +96,7 @@ The site is built to WCAG 2.1 AA standards. We are using design patterns from th
 
 ### Performance
 
-Most events should load in under a second:
+Most events should load in under a second.
 
 ## Public domain
 
