@@ -92,8 +92,8 @@ This will depend on the completeness and complexity of your VPAT, however many v
 
 No. Your OpenACR file is valid, if it conforms with the [JSON Schema published on GitHub](https://github.com/GSA/openacr). We encourage organizations to optimize their accessibility workflow to align with this document format.
 
-## Can I submit my OpenACR as a Word or PDF document?
+## Can I submit my OpenACR as a MS Word or PDF document?
 
 No. OpenACR's generally refer to the text file that is in a standard YAML format and ends with a .yaml extension. Even the HTML file is only there as an accessible way to present the information. Starting with a valid OpenACR YAML file, anyone can produce a HTML document. From this users can create Word or PDF versions. This workflow cannot be reversed. Submissions of OpenACR files must be as validated YAML files.
 
-_**Note:** This content was adapted from NASA's 2021 guide, [Demistifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._
+_**Note:** This content was adapted from NASA's 2021 guide, [Demystifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._

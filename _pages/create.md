@@ -119,4 +119,4 @@ The first column "Criteria" of the Revised Section 508 tables lists the Section 
 ☐ Did you complete the remarks column? If the conformance level is either "Partially Supports" or "Does Not Support," then be sure that you explain further in the respective remarks column.
 
 
-_**Note:** This content was adapted from NASA's 2021 guide, [Demistifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._
+_**Note:** This content was adapted from NASA's 2021 guide, [Demystifying Section 508: An Industry Guide to Understanding Section 508 of the Rehabilitation Act (PDF)](https://sewp.nasa.gov/documents/Section_508_Guide_111821.pdf)._
