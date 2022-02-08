@@ -63,3 +63,19 @@ $theme-hero-image: asset_path("DisabilityIN-stock-hero.jpg");
 .usa-banner__button[aria-expanded="true"]::after {
   -webkit-mask: url("../img/usa-icons/expand_less.svg") no-repeat center/contain;
 }
+
+.usa-media-block__img {
+  width: 132px;
+  height: 132px;
+  background-color: #edf5ff;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usa-media-block__img img {
+  width: 64px;
+  height: 64px;
+}
