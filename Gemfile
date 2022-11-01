@@ -9,7 +9,7 @@ gem "sprockets", "~> 3.7"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.16"
+  gem "jekyll-feed", "~> 0.17"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2', "3.0.0"  
   gem 'jekyll-sitemap'
